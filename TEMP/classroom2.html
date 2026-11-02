@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Classroom - Describe Image Pre-test</title>
+    <style>
+        :root {
+            --bg: #121212;
+            --surface: #1e1e1e;
+            --text: #ffffff;
+            --accent: #3b82f6;
+            --border: #333333;
+            --success: #10b981;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg: #f9fafb;
+                --surface: #ffffff;
+                --text: #111827;
+                --border: #e5e7eb;
+            }
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            line-height: 1.6;
+        }
+        .header {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .warning-box {
+            background-color: rgba(59, 130, 246, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+        .image-container {
+            width: 100%;
+            height: 300px;
+            background-color: var(--border);
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            background-color: var(--bg);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            font-size: 1rem;
+            font-family: inherit;
+            resize: vertical;
+            box-sizing: border-box;
+            margin-bottom: 0.5rem;
+        }
+        textarea:focus {
+            outline: 2px solid var(--accent);
+            border-color: transparent;
+        }
+        .char-count {
+            text-align: right;
+            font-size: 0.875rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        button:hover { background-color: #2563eb; }
+        button:disabled {
+            background-color: var(--border);
+            color: #6b7280;
+            cursor: not-allowed;
+        }
+        
+        #evaluation-container { display: none; margin-top: 2rem; }
+        .checklist {
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .checklist label {
+            display: block;
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+        }
+        .checklist input { margin-right: 0.5rem; }
+        
+        #results-container { display: none; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+        pre {
+            background-color: var(--surface);
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Spontaneous Speaking</h1>
+        <p>Pre-test — Describe Image (Baseline)</p>
+    </div>
+
+    <div class="warning-box">
+        🗣️ <strong>CRITICAL: SPEAK YOUR ANSWER OUT LOUD BEFORE TYPING.</strong><br>
+        Set a timer for 90 seconds. Describe the image out loud. Then dictate or type exactly what you just said.
+    </div>
+
+    <div id="exercise-container">
+        <div class="image-container" title="Team collaborating around a table with laptops"></div>
+        <textarea id="answer-box" placeholder="Start your 90-second timer. Speak, then type your exact words here..." oninput="updateCount()"></textarea>
+        <div class="char-count"><span id="word-count">0</span> words (Target: ~135+ words for 90s)</div>
+        <button id="submit-btn" onclick="submitAnswer()" disabled>Submit Description</button>
+    </div>
+
+    <div id="evaluation-container">
+        <h2>Self-Evaluation</h2>
+        <p>Before checking the JSON, honestly evaluate the audio/speech you just produced:</p>
+        <div class="checklist">
+            <label><input type="checkbox"> Did I use a clear framework (Summary, Parts, Meaning, Conclusion)?</label>
+            <label><input type="checkbox"> Did I include a final conclusion?</label>
+            <label><input type="checkbox"> Did I speak at a normal speed (110+ wpm)?</label>
+            <label><input type="checkbox"> Did I use at least 3 C1 vocabulary upgrades (e.g., 'professionals' instead of 'people')?</label>
+            <label><input type="checkbox"> Did I avoid "um," "uh," and long silent pauses?</label>
+        </div>
+        <p style="color: var(--accent); font-weight: bold;">Return to the conversation: your professor will correct your text.</p>
+        <button onclick="showResults()">Generate Results</button>
+    </div>
+
+    <div id="results-container">
+        <button onclick="copyResults()" id="copy-btn">Copy Results</button>
+        <pre id="json-output"></pre>
+    </div>
+
+    <script>
+        const pieceId = "english-c1/2026-10-29-pretest-describe-image";
+        const unit = "describe-image-framework";
+        let answerText = "";
+
+        function updateCount() {
+            const text = document.getElementById('answer-box').value;
+            const words = text.trim() === "" ? 0 : text.trim().split(/\s+/).length;
+            document.getElementById('word-count').innerText = words;
+            document.getElementById('submit-btn').disabled = words < 10;
+        }
+
+        function submitAnswer() {
+            answerText = document.getElementById('answer-box').value;
+            document.getElementById('exercise-container').style.display = 'none';
+            document.getElementById('evaluation-container').style.display = 'block';
+        }
+
+        function showResults() {
+            document.getElementById('evaluation-container').style.display = 'none';
+            document.getElementById('results-container').style.display = 'block';
+            
+            const records = [{
+                date: new Date().toISOString(),
+                block: "b1",
+                code: "teach-back",
+                item: "describe-image-1",
+                unit: unit,
+                prompt: "Describe the collaborative team image in 90 seconds.",
+                answer: answerText,
+                secondAnswer: null,
+                correctAnswer: null, // Open response, Professor corrects it
+                correct: null,
+                attempts: 1
+            }];
+
+            const finalData = {
+                piece: pieceId,
+                processedUpTo: null,
+                records: records
+            };
+            
+            document.getElementById('json-output').innerText = JSON.stringify(finalData, null, 2);
+        }
+
+        function copyResults() {
+            const text = document.getElementById('json-output').innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = document.getElementById('copy-btn');
+                btn.innerText = "Copied!";
+                setTimeout(() => btn.innerText = "Copy Results", 2000);
+            });
+        }
+    </script>
+</body>
+</html>

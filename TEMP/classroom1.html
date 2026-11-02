@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Classroom - Pre-Test</title>
+    <style>
+        :root {
+            --bg: #121212;
+            --surface: #1e1e1e;
+            --text: #ffffff;
+            --accent: #3b82f6;
+            --border: #333333;
+        }
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg: #f9fafb;
+                --surface: #ffffff;
+                --text: #111827;
+                --border: #e5e7eb;
+            }
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            line-height: 1.5;
+        }
+        .header {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .warning-box {
+            background-color: rgba(59, 130, 246, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 1rem;
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+        h2 { font-size: 1.25rem; margin-bottom: 1rem; }
+        .question-text { font-size: 1.125rem; font-weight: 600; margin-bottom: 1.5rem; }
+        button {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            background-color: var(--surface);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+        button:hover { border-color: var(--accent); }
+        button:focus { outline: 2px solid var(--accent); }
+        .progress { font-size: 0.875rem; color: #6b7280; margin-bottom: 1rem; }
+        #results-container { display: none; }
+        pre {
+            background-color: var(--surface);
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            font-size: 0.875rem;
+        }
+        .copy-btn {
+            background-color: var(--accent);
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            border: none;
+            margin-top: 1rem;
+        }
+        .copy-btn:hover { background-color: #2563eb; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Advanced Phrasal Verbs</h1>
+        <p>Pre-test — C1 Priority</p>
+    </div>
+
+    <div class="warning-box">
+        🗣️ <strong>SPEAK YOUR ANSWER OUT LOUD BEFORE CLICKING.</strong><br>
+        This is Examiner Mode. No hints. Answer without looking at your notes.
+    </div>
+
+    <div id="quiz-container">
+        <div class="progress" id="progress">Question 1 of 4</div>
+        <div class="question-text" id="question">Loading...</div>
+        <div id="options"></div>
+    </div>
+
+    <div id="results-container">
+        <h2>Pre-test Complete</h2>
+        <p id="scoreSummary" style="font-weight: bold; color: var(--accent);"></p>
+        <p>Failing here is the plan: now your brain knows what to look for.</p>
+        <p>Return to the conversation: your professor already has your responses waiting.</p>
+        <button class="copy-btn" onclick="copyResults()">Copy Results</button>
+        <pre id="json-output"></pre>
+    </div>
+
+    <script>
+        const pieceId = "english-c1/2026-10-29-pretest-phrasal-verbs";
+        const unit = "phrasal-verbs-c1";
+        const questions = [
+            {
+                id: "q1",
+                text: "The code works, but we need to _____ a few minor bugs before deployment.",
+                options: [
+                    { id: "o1", text: "iron out" },
+                    { id: "o2", text: "figure out" },
+                    { id: "o3", text: "patch up" },
+                    { id: "o4", text: "phase out" }
+                ],
+                correct: "o1"
+            },
+            {
+                id: "q2",
+                text: "I have a new prompt engineering strategy. Can I _____ you quickly?",
+                options: [
+                    { id: "o1", text: "run it by" },
+                    { id: "o2", text: "run by it" },
+                    { id: "o3", text: "touch it base" },
+                    { id: "o4", text: "touch base it" }
+                ],
+                correct: "o1"
+            },
+            {
+                id: "q3",
+                text: "We need to _____ the legacy SQL database by the end of the year.",
+                options: [
+                    { id: "o1", text: "phase out" },
+                    { id: "o2", text: "roll out" },
+                    { id: "o3", text: "carry out" },
+                    { id: "o4", text: "bring up" }
+                ],
+                correct: "o1"
+            },
+            {
+                id: "q4",
+                text: "Which sentence places the object correctly? (Grammar rule)",
+                options: [
+                    { id: "o1", text: "We need to look into the issue." },
+                    { id: "o2", text: "We need to look the issue into." },
+                    { id: "o3", text: "We need to look into it the issue." },
+                    { id: "o4", text: "We need to drill it down into." }
+                ],
+                correct: "o1"
+            }
+        ];
+
+        let currentIndex = 0;
+        let correctCount = 0;
+        const records = [];
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function renderQuestion() {
+            if (currentIndex >= questions.length) {
+                showResults();
+                return;
+            }
+
+            const q = questions[currentIndex];
+            document.getElementById('progress').innerText = `Question ${currentIndex + 1} of ${questions.length}`;
+            document.getElementById('question').innerText = q.text;
+            
+            const optionsContainer = document.getElementById('options');
+            optionsContainer.innerHTML = '';
+            
+            const shuffledOptions = shuffle([...q.options]);
+            
+            shuffledOptions.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.innerText = opt.text;
+                btn.onclick = () => handleAnswer(q, opt);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function handleAnswer(question, selectedOption) {
+            const isCorrect = selectedOption.id === question.correct;
+            const correctText = question.options.find(o => o.id === question.correct).text;
+            
+            if (isCorrect) correctCount++;
+            
+            records.push({
+                date: new Date().toISOString(),
+                block: "b2",
+                code: "exam-quiz",
+                item: question.id,
+                unit: unit,
+                prompt: question.text,
+                answer: selectedOption.text,
+                secondAnswer: null,
+                correctAnswer: correctText,
+                correct: isCorrect,
+                attempts: 1
+            });
+
+            currentIndex++;
+            renderQuestion();
+        }
+
+        function showResults() {
+            document.getElementById('quiz-container').style.display = 'none';
+            document.getElementById('results-container').style.display = 'block';
+            document.getElementById('scoreSummary').innerText = `You got ${correctCount} out of ${questions.length} correct.`;
+            
+            const finalData = {
+                piece: pieceId,
+                processedUpTo: null,
+                records: records
+            };
+            
+            document.getElementById('json-output').innerText = JSON.stringify(finalData, null, 2);
+        }
+
+        function copyResults() {
+            const text = document.getElementById('json-output').innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                btn.innerText = "Copied!";
+                setTimeout(() => btn.innerText = "Copy Results", 2000);
+            });
+        }
+
+        renderQuestion();
+    </script>
+</body>
+</html>
