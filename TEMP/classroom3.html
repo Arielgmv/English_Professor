@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C1 Exam Quiz — Articles & Prepositions</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    :host, :root {
+      --card-bg: var(--card, #ffffff);
+      --card-fg: var(--card-foreground, #0f172a);
+      --muted-fg: var(--muted-foreground, #64748b);
+      --border-col: var(--border, #e2e8f0);
+      --primary-col: var(--primary, #2563eb);
+      --primary-fg: var(--primary-foreground, #ffffff);
+    }
+    @media (prefers-color-scheme: dark) {
+      :host, :root {
+        --card-bg: var(--card, #1e293b);
+        --card-fg: var(--card-foreground, #f8fafc);
+        --muted-fg: var(--muted-foreground, #94a3b8);
+        --border-col: var(--border, #334155);
+        --primary-col: var(--primary, #3b82f6);
+        --primary-fg: var(--primary-foreground, #ffffff);
+      }
+    }
+  </style>
+</head>
+<body class="bg-transparent text-[var(--foreground,#0f172a)] antialiased p-4 sm:p-6 max-w-3xl mx-auto font-sans">
+
+  <!-- Main Card Container -->
+  <div class="bg-[var(--card,#ffffff)] text-[var(--foreground,#0f172a)] border border-[var(--border,#e2e8f0)] rounded-2xl shadow-sm p-6 sm:p-8 transition-all">
+    
+    <!-- Top Header -->
+    <header class="border-b border-[var(--border,#e2e8f0)] pb-4 mb-6">
+      <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+        <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 dark:bg-blue-950 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
+          Unit: Articles & Prepositions (C1)
+        </span>
+        <span class="text-xs font-medium text-[var(--muted-foreground,#64748b)]" id="mode-badge">
+          Mode: Exam (Reasoned Correction at End)
+        </span>
+      </div>
+      <h1 class="text-xl sm:text-2xl font-bold tracking-tight text-[var(--foreground,#0f172a)]">
+        Diagnostic Exam: High-Frequency Traps
+      </h1>
+      <p class="text-sm text-[var(--muted-foreground,#64748b)] mt-1">
+        Testing Spanish-to-English interference: abstract nouns, adjective collocations, and dependent prepositions.
+      </p>
+    </header>
+
+    <!-- Quiz Container (Active Questions) -->
+    <main id="quiz-container">
+      <!-- Progress Bar -->
+      <div class="mb-6">
+        <div class="flex justify-between text-xs font-medium text-[var(--muted-foreground,#64748b)] mb-1.5">
+          <span id="question-counter">Question 1 of 3</span>
+          <span id="progress-percent">33%</span>
+        </div>
+        <div class="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden">
+          <div id="progress-bar" class="bg-blue-600 h-2 rounded-full transition-all duration-300 w-1/3"></div>
+        </div>
+      </div>
+
+      <!-- Out-Loud Speaking Reminder Box -->
+      <div class="mb-5 flex items-start gap-3 p-3.5 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800/60 rounded-xl text-amber-900 dark:text-amber-200 text-xs sm:text-sm">
+        <span class="text-lg select-none">🗣️</span>
+        <div>
+          <span class="font-semibold">The Professor's Rule:</span> Read the prompt and your chosen sentence <strong class="underline decoration-amber-400">OUT LOUD</strong> before clicking. Training your ear breaks Spanish syntactic interference.
+        </div>
+      </div>
+
+      <!-- Question Card -->
+      <div class="space-y-4">
+        <h2 id="question-text" class="text-base sm:text-lg font-semibold text-[var(--foreground,#0f172a)] leading-relaxed">
+          <!-- Populated by JS -->
+        </h2>
+
+        <!-- Options Form -->
+        <fieldset class="space-y-3 mt-4" id="options-group">
+          <!-- Populated by JS -->
+        </fieldset>
+      </div>
+
+      <!-- Next / Submit Button -->
+      <div class="mt-8 pt-4 border-t border-[var(--border,#e2e8f0)] flex justify-between items-center">
+        <span class="text-xs text-[var(--muted-foreground,#64748b)] italic" id="hint-note">
+          One attempt per question. Answer carefully.
+        </span>
+        <button 
+          id="next-btn" 
+          disabled
+          class="inline-flex items-center justify-center px-5 py-2.5 rounded-xl font-medium text-sm transition-all duration-150 disabled:opacity-40 disabled:cursor-not-allowed bg-blue-600 hover:bg-blue-700 text-white shadow-sm hover:shadow focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+          <span>Next Question &rarr;</span>
+        </button>
+      </div>
+    </main>
+
+    <!-- Results Screen (Hidden initially) -->
+    <div id="results-container" class="hidden">
+      <!-- Score summary card -->
+      <div class="text-center py-6 px-4 bg-slate-50 dark:bg-slate-900/60 border border-[var(--border,#e2e8f0)] rounded-2xl mb-8">
+        <span class="text-4xl sm:text-5xl" id="summary-icon">📊</span>
+        <h2 class="text-2xl font-bold mt-2 text-[var(--foreground,#0f172a)]" id="score-headline">
+          Exam Completed
+        </h2>
+        <p class="text-sm text-[var(--muted-foreground,#64748b)] mt-1 max-w-md mx-auto" id="score-subtitle">
+          Here is your reasoned diagnostic breakdown. Review each explanation before exporting.
+        </p>
+        <div class="flex justify-center gap-6 mt-4 pt-4 border-t border-[var(--border,#e2e8f0)] text-sm">
+          <div>
+            <div class="text-xs uppercase tracking-wider text-[var(--muted-foreground,#64748b)] font-semibold">Hits (1st Try)</div>
+            <div class="text-2xl font-extrabold text-emerald-600 dark:text-emerald-400 mt-0.5" id="stat-hits">0</div>
+          </div>
+          <div class="border-r border-[var(--border,#e2e8f0)]"></div>
+          <div>
+            <div class="text-xs uppercase tracking-wider text-[var(--muted-foreground,#64748b)] font-semibold">To Failure Pile</div>
+            <div class="text-2xl font-extrabold text-rose-600 dark:text-rose-400 mt-0.5" id="stat-misses">0</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action: Copy & Export Box (Always visible and reliable) -->
+      <div class="mb-8 p-5 bg-blue-50/70 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800 rounded-2xl">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-3">
+          <div>
+            <h3 class="text-sm font-bold text-blue-950 dark:text-blue-100 flex items-center gap-2">
+              <span>📋</span> Copy Results (JSON)
+            </h3>
+            <p class="text-xs text-blue-800 dark:text-blue-300 mt-0.5">
+              Copy this JSON block and paste it back into the chat so The Professor can update your tracking files.
+            </p>
+          </div>
+          <div class="flex items-center gap-2 w-full sm:w-auto">
+            <button 
+              id="copy-results-btn"
+              type="button"
+              class="flex-1 sm:flex-initial px-4 py-2 rounded-xl font-semibold text-xs sm:text-sm transition-all duration-150 bg-blue-600 hover:bg-blue-700 active:scale-95 text-white shadow-sm flex items-center justify-center gap-1.5 whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path>
+              </svg>
+              <span id="copy-btn-text">Copy Results</span>
+            </button>
+            <button 
+              id="select-all-btn"
+              type="button"
+              class="px-3 py-2 rounded-xl font-medium text-xs transition-all duration-150 bg-slate-200 dark:bg-slate-700 hover:bg-slate-300 dark:hover:bg-slate-600 text-slate-800 dark:text-slate-200 focus:outline-none">
+              Select All
+            </button>
+          </div>
+        </div>
+
+        <!-- Direct Readonly Textarea (Ensures copy always works regardless of browser/iframe security) -->
+        <textarea 
+          id="json-textarea" 
+          readonly 
+          rows="7"
+          class="w-full p-3 font-mono text-xs bg-white dark:bg-slate-900 border border-blue-200 dark:border-blue-900 rounded-xl text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 select-all shadow-inner leading-relaxed"
+          placeholder="Generating records..."></textarea>
+        <p id="copy-status-message" class="text-[11px] text-blue-700 dark:text-blue-300 mt-2 flex items-center gap-1">
+          <span>💡</span> <em>Tip: You can also click inside the box above to select all text, then press Ctrl+C (Cmd+C).</em>
+        </p>
+      </div>
+
+      <!-- Reasoned Corrections Header -->
+      <h3 class="text-lg font-bold text-[var(--foreground,#0f172a)] mb-4 flex items-center gap-2">
+        <span>🔍</span> Reasoned Corrections
+      </h3>
+
+      <!-- Detailed Breakdown Cards -->
+      <div id="corrections-list" class="space-y-5">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // Quiz Data Definition based on material/English-c1/articles-and-prepositions-c1.md
+    const quizData = {
+      pieceId: "english-c1/2026-11-02-exam-quiz-articles-prepositions",
+      unit: "articles-and-prepositions-c1",
+      topic: "english-c1",
+      blockId: "b1",
+      questions: [
+        {
+          id: "q1",
+          item: "p1",
+          text: "Before finalizing the engineering proposal, our lead requested _____ regarding the cloud architecture migration.",
+          source: "material/English-c1/articles-and-prepositions-c1.md §2.2 (Trap 1: Abstract Nouns)",
+          options: [
+            {
+              id: "opt_advice",
+              text: "advice",
+              isCorrect: true,
+              why: "'Advice' is strictly uncountable in English. It never takes an indefinite article ('an advice') and cannot be pluralized ('advices'). When speaking generally, use zero article or 'some advice'."
+            },
+            {
+              id: "opt_an_advice",
+              text: "an advice",
+              isCorrect: false,
+              whyNot: "Literal translation trap from Spanish 'un consejo'. Unlike Spanish, English treats advice as uncountable. To make it countable, you must say 'a piece of advice'."
+            },
+            {
+              id: "opt_the_advices",
+              text: "the advices",
+              isCorrect: false,
+              whyNot: "Non-existent form. Uncountable nouns in English do not form plurals with '-s'."
+            },
+            {
+              id: "opt_an_informative_advice",
+              text: "an informative advice",
+              isCorrect: false,
+              whyNot: "Adding an adjective does not convert an uncountable noun into a countable one. It must be 'some informative advice' or 'an informative piece of advice'."
+            }
+          ]
+        },
+        {
+          id: "q2",
+          item: "p2",
+          text: "The senior site reliability engineer is exceptionally good _____ diagnosing distributed system race conditions under pressure.",
+          source: "material/English-c1/articles-and-prepositions-c1.md §3.1 & §5.1 (Pattern 2: Adjective Collocations)",
+          options: [
+            {
+              id: "opt_at",
+              text: "at",
+              isCorrect: true,
+              why: "Collocation 'good at + gerund/noun'. In English, technical proficiency and aptitude are expressed exclusively with 'at'."
+            },
+            {
+              id: "opt_in",
+              text: "in",
+              isCorrect: false,
+              whyNot: "Direct Spanish interference ('bueno en'). In English, 'good in' is incorrect when referencing competence at a task or field."
+            },
+            {
+              id: "opt_for",
+              text: "for",
+              isCorrect: false,
+              whyNot: "'Good for' indicates health or suitability (e.g. 'rest is good for you'), not technical capability."
+            },
+            {
+              id: "opt_with",
+              text: "with",
+              isCorrect: false,
+              whyNot: "While one can be 'good with tools/people', describing competence in performing an action takes 'good at + gerund'."
+            }
+          ]
+        },
+        {
+          id: "q3",
+          item: "p3",
+          text: "Whether we can deploy the automated CI/CD pipeline this evening will depend strictly _____ the availability of staging credentials.",
+          source: "material/English-c1/articles-and-prepositions-c1.md §1.2 & §3.4 (C1 Business Collocations)",
+          options: [
+            {
+              id: "opt_on",
+              text: "on",
+              isCorrect: true,
+              why: "The verb 'depend' colligates with the preposition 'on' (or 'upon' in formal contexts). It never takes 'of'."
+            },
+            {
+              id: "opt_of",
+              text: "of",
+              isCorrect: false,
+              whyNot: "Direct translation trap from Spanish 'depender de'. One of the most persistent false-friend preposition traps among Spanish C1 learners."
+            },
+            {
+              id: "opt_from",
+              text: "from",
+              isCorrect: false,
+              whyNot: "Confusion with origin prepositions or Germanic structures ('abhängen von'). In English, always use 'depend on'."
+            },
+            {
+              id: "opt_to",
+              text: "to",
+              isCorrect: false,
+              whyNot: "'Depend to' is grammatically unidiomatic in English."
+            }
+          ]
+        }
+      ]
+    };
+
+    // Runtime state
+    let currentIndex = 0;
+    const userAnswers = [];
+
+    // Fisher-Yates shuffle
+    function shuffle(array) {
+      const arr = [...array];
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    quizData.questions.forEach(q => {
+      q.shuffledOptions = shuffle(q.options);
+    });
+
+    const quizContainer = document.getElementById('quiz-container');
+    const resultsContainer = document.getElementById('results-container');
+    const questionText = document.getElementById('question-text');
+    const optionsGroup = document.getElementById('options-group');
+    const nextBtn = document.getElementById('next-btn');
+    const questionCounter = document.getElementById('question-counter');
+    const progressBar = document.getElementById('progress-bar');
+    const progressPercent = document.getElementById('progress-percent');
+
+    function renderCurrentQuestion() {
+      const q = quizData.questions[currentIndex];
+      const total = quizData.questions.length;
+      
+      const currentNum = currentIndex + 1;
+      const pct = Math.round((currentNum / total) * 100);
+      questionCounter.textContent = `Question ${currentNum} of ${total}`;
+      progressPercent.textContent = `${pct}%`;
+      progressBar.style.width = `${pct}%`;
+
+      questionText.innerHTML = `<span class="text-blue-600 dark:text-blue-400 font-bold mr-2">${currentNum}.</span> ${q.text}`;
+
+      optionsGroup.innerHTML = '';
+      nextBtn.disabled = true;
+
+      q.shuffledOptions.forEach((opt, idx) => {
+        const optionWrapper = document.createElement('label');
+        optionWrapper.className = `flex items-center gap-3.5 p-3.5 sm:p-4 rounded-xl border border-[var(--border,#e2e8f0)] cursor-pointer transition-all duration-150 hover:bg-slate-50 dark:hover:bg-slate-800/50 hover:border-blue-400 dark:hover:border-blue-500 focus-within:ring-2 focus-within:ring-blue-500`;
+
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.name = `question-${q.id}`;
+        radio.value = opt.id;
+        radio.className = 'w-4 h-4 text-blue-600 border-gray-300 focus:ring-blue-500 dark:bg-slate-700';
+
+        radio.addEventListener('change', () => {
+          optionsGroup.querySelectorAll('label').forEach(lbl => {
+            lbl.classList.remove('border-blue-600', 'bg-blue-50/50', 'dark:bg-blue-950/20');
+          });
+          optionWrapper.classList.add('border-blue-600', 'bg-blue-50/50', 'dark:bg-blue-950/20');
+          nextBtn.disabled = false;
+        });
+
+        const letterBadge = document.createElement('span');
+        letterBadge.className = 'w-6 h-6 rounded-lg bg-slate-100 dark:bg-slate-800 text-xs font-semibold flex items-center justify-center text-[var(--muted-foreground,#64748b)]';
+        letterBadge.textContent = String.fromCharCode(65 + idx);
+
+        const textSpan = document.createElement('span');
+        textSpan.className = 'text-sm sm:text-base font-medium text-[var(--foreground,#0f172a)] flex-1';
+        textSpan.textContent = opt.text;
+
+        optionWrapper.appendChild(radio);
+        optionWrapper.appendChild(letterBadge);
+        optionWrapper.appendChild(textSpan);
+        optionsGroup.appendChild(optionWrapper);
+      });
+
+      if (currentIndex === total - 1) {
+        nextBtn.innerHTML = '<span>Finish & Review Results &rarr;</span>';
+      } else {
+        nextBtn.innerHTML = '<span>Next Question &rarr;</span>';
+      }
+    }
+
+    nextBtn.addEventListener('click', () => {
+      const q = quizData.questions[currentIndex];
+      const selectedRadio = optionsGroup.querySelector('input[type="radio"]:checked');
+      if (!selectedRadio) return;
+
+      const chosenOpt = q.options.find(o => o.id === selectedRadio.value);
+      userAnswers.push({
+        questionId: q.id,
+        item: q.item,
+        prompt: q.text,
+        chosenOptId: chosenOpt.id,
+        chosenText: chosenOpt.text,
+        isCorrect: chosenOpt.isCorrect,
+        correctOpt: q.options.find(o => o.isCorrect),
+        whyNot: chosenOpt.whyNot || null,
+        why: q.options.find(o => o.isCorrect).why,
+        source: q.source,
+        timestamp: new Date().toISOString()
+      });
+
+      currentIndex++;
+      if (currentIndex < quizData.questions.length) {
+        renderCurrentQuestion();
+      } else {
+        showResults();
+      }
+    });
+
+    function buildExportRecords() {
+      return {
+        piece: quizData.pieceId,
+        topic: quizData.topic,
+        processedUpTo: null,
+        records: userAnswers.map(ans => ({
+          date: ans.timestamp,
+          block: quizData.blockId,
+          code: "exam-quiz",
+          item: ans.item,
+          unit: quizData.unit,
+          prompt: ans.prompt,
+          answer: ans.chosenText,
+          correctAnswer: ans.correctOpt.text,
+          correct: ans.isCorrect,
+          attempts: 1
+        }))
+      };
+    }
+
+    // Robust multi-tier clipboard copy helper
+    async function copyToClipboardRobust(text, targetTextarea) {
+      // 1. Always select the textarea so the user has visual feedback
+      if (targetTextarea) {
+        targetTextarea.focus();
+        targetTextarea.select();
+        targetTextarea.setSelectionRange(0, text.length);
+      }
+
+      // 2. Try modern Clipboard API
+      let modernSuccess = false;
+      if (navigator.clipboard && window.isSecureContext) {
+        try {
+          await navigator.clipboard.writeText(text);
+          modernSuccess = true;
+        } catch (e) {
+          modernSuccess = false;
+        }
+      }
+
+      if (modernSuccess) return true;
+
+      // 3. Fallback to document.execCommand('copy') with selected textarea
+      try {
+        const execSuccess = document.execCommand('copy');
+        if (execSuccess) return true;
+      } catch (e) {
+        // execCommand failed
+      }
+
+      return false;
+    }
+
+    function showResults() {
+      quizContainer.classList.add('hidden');
+      resultsContainer.classList.remove('hidden');
+
+      const total = quizData.questions.length;
+      const hits = userAnswers.filter(a => a.isCorrect).length;
+      const misses = total - hits;
+
+      document.getElementById('stat-hits').textContent = hits;
+      document.getElementById('stat-misses').textContent = misses;
+
+      const headline = document.getElementById('score-headline');
+      const subtitle = document.getElementById('score-subtitle');
+      const icon = document.getElementById('summary-icon');
+
+      if (hits === total) {
+        icon.textContent = '🎯';
+        headline.textContent = `Clean Sweep: ${hits}/${total} (100%)`;
+        subtitle.textContent = "Flawless execution! All 3 items advance toward spaced repetition review.";
+      } else if (hits >= 2) {
+        icon.textContent = '⚖️';
+        headline.textContent = `Solid Diagnostic: ${hits}/${total} (${Math.round((hits/total)*100)}%)`;
+        subtitle.textContent = "Good intuition, but the missed item highlights a classic Spanish interference trap.";
+      } else {
+        icon.textContent = '💡';
+        headline.textContent = `Diagnostic Identified Gaps: ${hits}/${total}`;
+        subtitle.textContent = "Failing here is the plan: now your brain knows what syntax patterns to guard against.";
+      }
+
+      // Populate Reasoned Corrections List
+      const correctionsList = document.getElementById('corrections-list');
+      correctionsList.innerHTML = '';
+
+      userAnswers.forEach((ans, idx) => {
+        const card = document.createElement('div');
+        const borderColor = ans.isCorrect 
+          ? 'border-emerald-300 dark:border-emerald-800/80 bg-emerald-50/30 dark:bg-emerald-950/10' 
+          : 'border-rose-300 dark:border-rose-800/80 bg-rose-50/30 dark:bg-rose-950/10';
+        
+        card.className = `p-4 sm:p-5 rounded-2xl border ${borderColor} space-y-3`;
+
+        const statusBadge = ans.isCorrect
+          ? `<span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-200">✓ Hit (1st Try)</span>`
+          : `<span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold bg-rose-100 text-rose-800 dark:bg-rose-900/60 dark:text-rose-200">✗ Missed &rarr; Fails Pile</span>`;
+
+        let feedbackHTML = '';
+        if (ans.isCorrect) {
+          feedbackHTML = `
+            <div class="text-xs sm:text-sm text-emerald-900 dark:text-emerald-200 bg-emerald-50 dark:bg-emerald-950/40 p-3 rounded-xl border border-emerald-200 dark:border-emerald-800">
+              <strong class="font-semibold block mb-0.5">Why it works:</strong>
+              ${ans.why}
+            </div>
+          `;
+        } else {
+          feedbackHTML = `
+            <div class="space-y-2">
+              <div class="text-xs sm:text-sm text-rose-950 dark:text-rose-200 bg-rose-50 dark:bg-rose-950/40 p-3 rounded-xl border border-rose-200 dark:border-rose-800">
+                <strong class="font-semibold block mb-0.5">Why your answer ("${ans.chosenText}") failed:</strong>
+                ${ans.whyNot}
+              </div>
+              <div class="text-xs sm:text-sm text-emerald-950 dark:text-emerald-200 bg-emerald-50 dark:bg-emerald-950/40 p-3 rounded-xl border border-emerald-200 dark:border-emerald-800">
+                <strong class="font-semibold block mb-0.5">Correct Answer ("${ans.correctOpt.text}"):</strong>
+                ${ans.why}
+              </div>
+            </div>
+          `;
+        }
+
+        card.innerHTML = `
+          <div class="flex items-center justify-between gap-2 border-b border-[var(--border,#e2e8f0)] pb-2">
+            <span class="text-xs font-bold text-[var(--muted-foreground,#64748b)]">Question ${idx + 1}</span>
+            ${statusBadge}
+          </div>
+          <p class="text-sm sm:text-base font-semibold text-[var(--foreground,#0f172a)]">${ans.prompt}</p>
+          <div class="text-xs text-[var(--muted-foreground,#64748b)]">
+            <span>Your selection: </span>
+            <span class="font-mono font-bold ${ans.isCorrect ? 'text-emerald-700 dark:text-emerald-400' : 'text-rose-700 dark:text-rose-400'}">${ans.chosenText}</span>
+            ${!ans.isCorrect ? ` · <span>Correct: </span><span class="font-mono font-bold text-emerald-700 dark:text-emerald-400">${ans.correctOpt.text}</span>` : ''}
+          </div>
+          ${feedbackHTML}
+          <div class="text-[11px] text-[var(--muted-foreground,#64748b)] pt-1 flex items-center gap-1">
+            <span>📖 Source:</span>
+            <code class="font-mono bg-slate-100 dark:bg-slate-800 px-1 py-0.5 rounded">${ans.source}</code>
+          </div>
+        `;
+
+        correctionsList.appendChild(card);
+      });
+
+      // Populate Visible JSON Textarea
+      const exportData = buildExportRecords();
+      const jsonString = JSON.stringify(exportData, null, 2);
+      const jsonTextarea = document.getElementById('json-textarea');
+      jsonTextarea.value = jsonString;
+
+      // Click on textarea auto-selects
+      jsonTextarea.addEventListener('click', () => {
+        jsonTextarea.select();
+      });
+
+      // Select All Button
+      const selectAllBtn = document.getElementById('select-all-btn');
+      selectAllBtn.addEventListener('click', () => {
+        jsonTextarea.focus();
+        jsonTextarea.select();
+        document.getElementById('copy-status-message').innerHTML = '<span class="text-emerald-600 dark:text-emerald-400 font-semibold">✓ Text selected! Press Ctrl+C (Cmd+C) to copy.</span>';
+      });
+
+      // Main Copy Results Button
+      const copyBtn = document.getElementById('copy-results-btn');
+      const copyBtnText = document.getElementById('copy-btn-text');
+
+      copyBtn.addEventListener('click', async () => {
+        const copied = await copyToClipboardRobust(jsonString, jsonTextarea);
+        
+        if (copied) {
+          copyBtn.classList.remove('bg-blue-600', 'hover:bg-blue-700');
+          copyBtn.classList.add('bg-emerald-600', 'hover:bg-emerald-700');
+          copyBtnText.textContent = '✓ Copied to Clipboard!';
+          document.getElementById('copy-status-message').innerHTML = '<span class="text-emerald-600 dark:text-emerald-400 font-semibold">✓ Copied! Paste it directly into your conversation with The Professor.</span>';
+          setTimeout(() => {
+            copyBtn.classList.remove('bg-emerald-600', 'hover:bg-emerald-700');
+            copyBtn.classList.add('bg-blue-600', 'hover:bg-blue-700');
+            copyBtnText.textContent = 'Copy Results';
+          }, 3000);
+        } else {
+          // If browser completely blocked clipboard access, text is already selected
+          copyBtnText.textContent = 'Selected — Press Ctrl+C';
+          document.getElementById('copy-status-message').innerHTML = '<span class="text-amber-600 dark:text-amber-400 font-semibold">⚠️ Browser blocked direct clipboard write. Text is selected above: press Ctrl+C (Cmd+C) to copy.</span>';
+          setTimeout(() => {
+            copyBtnText.textContent = 'Copy Results';
+          }, 3000);
+        }
+      });
+    }
+
+    // Initialize first question
+    renderCurrentQuestion();
+  </script>
+</body>
+</html>

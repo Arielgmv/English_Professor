@@ -6,13 +6,21 @@ Getting it right with a hint also counts as a failure.
 
 ## In the Pile
 
-**Date:** 2026-10-29 | **Unit:** Articles & Prepositions
-- **Prompt:** "How do you manage communicating... (Use 'good' + 'explain')"
-- **Your Answer:** "...good in manage..."
-- **Correct Answer:** "...good at managing..."
-- **Why:** Spanish Interference Trap. Missed the collocation "good at", and missed the rule that prepositions must be followed by a gerund (verb + -ing).
-- **Next Review:** 2026-10-31
+**Date:** 2026-11-02 | **Unit:** Articles & Prepositions
+- **Prompt:** "Before finalizing the engineering proposal, our lead requested _____ regarding the cloud architecture migration."
+- **Your Answer:** "an advice"
+- **Correct Answer:** "advice"
+- **Why:** Spanish Interference Trap. Added indefinite article "an" to the uncountable abstract noun "advice" (translating "un consejo"). Use zero article ("advice"), "some advice", or "a piece of advice".
+- **Next Review:** 2026-11-03
 - **Streak:** 0
+
+**Date:** 2026-10-29 | **Unit:** Articles & Prepositions
+- **Prompt:** "How do you manage communicating... (Use 'good' + 'explain')" / "...good _____ diagnosing..."
+- **Your Answer:** "at" (Passed on 2026-11-02)
+- **Correct Answer:** "...good at managing..." / "good at"
+- **Why:** Spanish Interference Trap. Collocation "good at" + gerund/noun. Correctly identified "at" today.
+- **Next Review:** 2026-11-03
+- **Streak:** 1 (Needs 1 more correct answer to clear)
 
 **Date:** 2026-10-29 | **Unit:** Articles & Prepositions
 - **Prompt:** State that you have experience in backend data integrations and are looking for remote work.

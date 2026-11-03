@@ -12,7 +12,7 @@ The states: untouched → viewed → worked on → in review → mastered.
 | Unit                           | Source File                    | State     | Last Time  | Notes                                                    |
 | ------------------------------ | ------------------------------ | --------- | ---------- | -------------------------------------------------------- |
 | Advanced Phrasal Verbs         | `phrasal-verbs-c1.md`          | In review | 2026-10-30 | Cleared first review cycle for "iron out" and inseparable grammar. |
-| Articles & Prepositions        | `articles-and-prepositions-c1` | In review | 2026-10-30 | Cleared first review cycle for Place and Time prepositions. |
+| Articles & Prepositions        | `articles-and-prepositions-c1` | In review | 2026-11-02 | Cleared review for "depend on" (advances to 7d). Streak 1 for "good at". New failure: "an advice". |
 | Spontaneous Speaking Framework | `describe-image-framework.md`  | Seen      | 2026-10-30 | Pre-test completed. Identified A1 vocab overuse ("guys") and missing conclusions. |
 
 ## Prepared Pieces
@@ -23,6 +23,7 @@ Explanations and exercise sets that The Professor has prepared on screen. They a
 | 2026-10-28 | English C1 | 2026-10-28-pretest-articles-and-prepositions | pretest | Processed |
 | 2026-10-29 | English C1 | 2026-10-29-pretest-phrasal-verbs | pretest | Processed |
 | 2026-10-30 | English C1 | 2026-10-29-pretest-describe-image | teach-back | Processed |
+| 2026-11-02 | English C1 | 2026-11-02-exam-quiz-articles-prepositions | exam-quiz | Processed (2/3) |
 
 ## Recurring Patterns
 When the same type of error appears three times, it is noted here. This is the most valuable part of the file.

@@ -8,7 +8,7 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 
 | Unit | Source | Next Review | Interval | Streak | Topic / Question |
 | --- | --- | --- | --- | --- | --- |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-02 | 3 days | 2 | Collocation: "depend on" |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-09 | 7 days | 3 | Collocation: "depend on" |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-01 | 3 days | 2 | Collocation: "responsible for" |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-02 | 3 days | 2 | Funnel Method (Time): "on Tuesday at 10:00 a.m." |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-02 | 3 days | 2 | Container Method (Place): "in La Paz, at home" |
@@ -16,7 +16,7 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-02 | 3 days | 2 | Grammar: Inseparable phrasal verb position ("look into the issue") |
 
 ## Next Steps
-- Tomorrow, clear the 5 remaining items in the Failure Pile. 
+- Tomorrow (2026-11-03), clear the due items in the Failure Pile: `an advice` (streak 0) and the second streak confirmation for `good at` (streak 1).
 - Return to the Spontaneous Speaking Framework to drill the SPIC method.
 
 ## Sessions
@@ -29,3 +29,4 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | 2026-10-30 | Spontaneous Speaking    | 0 Correct, 1 Failed | Teach-back complete. Failed SPIC structure (no conclusion, A1 vocab).                   |
 | 2026-10-30 | Daily Failures          | 3 Correct, 2 Failed | Cleared "depend on". Advanced "run by" and "phase out" to streak 1.                     |
 | 2026-10-30 | Reviews                 | 4 Correct, 0 Failed | Cleared all daily reviews and advanced them to 3-day intervals.                         |
+| 2026-11-02 | Articles & Prepositions | 2 Correct, 1 Failed | Diagnostic Exam. Cleared "depend on" (advances to 7 days). Advanced "good at" to streak 1. Added "uncountable advice" to failure pile. |
