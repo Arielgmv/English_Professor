@@ -11,9 +11,9 @@ The states: untouched → viewed → worked on → in review → mastered.
 
 | Unit                           | Source File                    | State     | Last Time  | Notes                                                    |
 | ------------------------------ | ------------------------------ | --------- | ---------- | -------------------------------------------------------- |
-| Advanced Phrasal Verbs         | `phrasal-verbs-c1.md`          | In review | 2026-10-30 | Cleared first review cycle for "iron out" and inseparable grammar. |
-| Articles & Prepositions        | `articles-and-prepositions-c1` | In review | 2026-11-02 | Cleared review for "depend on" (advances to 7d). Streak 1 for "good at". New failure: "an advice". |
-| Spontaneous Speaking Framework | `describe-image-framework.md`  | Seen      | 2026-10-30 | Pre-test completed. Identified A1 vocab overuse ("guys") and missing conclusions. |
+| Advanced Phrasal Verbs         | `phrasal-verbs-c1.md`          | In review | 2026-11-03 | Cleared "run it by" & "phase out" into reviews. "Iron out" & separable/inseparable advanced to 7-day interval. |
+| Articles & Prepositions        | `articles-and-prepositions-c1` | In review | 2026-11-05 | "Experience" & "remote work" graduated to reviews. Reconfirmed "good at" and drilled "advice on". |
+| Spontaneous Speaking Framework | `describe-image-framework.md`  | Seen      | 2026-11-03 | SPIC conclusion pattern drill completed (streak 1). Ready for full image drill. |
 
 ## Prepared Pieces
 Explanations and exercise sets that The Professor has prepared on screen. They are saved and can be reopened.

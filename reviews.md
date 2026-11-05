@@ -8,16 +8,23 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 
 | Unit | Source | Next Review | Interval | Streak | Topic / Question |
 | --- | --- | --- | --- | --- | --- |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-06 | 1 day | 1 | Zero article: "experience in" & "remote work" |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-06 | 3 days | 2 | Collocation: "good at" + gerund/noun |
+| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-06 | 3 days | 2 | Phrasal Verb: "run it by" |
+| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-06 | 3 days | 2 | Phrasal Verb: "phase out" |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-09 | 7 days | 3 | Collocation: "depend on" |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-01 | 3 days | 2 | Collocation: "responsible for" |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-02 | 3 days | 2 | Funnel Method (Time): "on Tuesday at 10:00 a.m." |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-02 | 3 days | 2 | Container Method (Place): "in La Paz, at home" |
-| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-02 | 3 days | 2 | Phrasal Verb: "iron out" (minor bugs) |
-| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-02 | 3 days | 2 | Grammar: Inseparable phrasal verb position ("look into the issue") |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-10 | 7 days | 3 | Collocation: "responsible for" |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-10 | 7 days | 3 | Funnel Method (Time): "next Wednesday at 3:00 p.m." |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-10 | 7 days | 3 | Container Method (Place): "in Cochabamba, from home" |
+| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-10 | 7 days | 3 | Phrasal Verb: "iron out" (minor bugs) |
+| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-10 | 7 days | 3 | Grammar: Inseparable phrasal verb position ("look into it") |
 
 ## Next Steps
-- Tomorrow (2026-11-03), clear the due items in the Failure Pile: `an advice` (streak 0) and the second streak confirmation for `good at` (streak 1).
-- Return to the Spontaneous Speaking Framework to drill the SPIC method.
+- Tomorrow (2026-11-06):
+  - Clear the last remaining item in the Failure Pile: SPIC framework conclusion (streak 1 -> streak 2).
+  - First repetition check for `advice` (streak 0).
+  - 1-day check for `experience` / `remote work`.
+- Continue Spontaneous Speaking Framework (SPIC) drills.
 
 ## Sessions
 
@@ -30,3 +37,5 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | 2026-10-30 | Daily Failures          | 3 Correct, 2 Failed | Cleared "depend on". Advanced "run by" and "phase out" to streak 1.                     |
 | 2026-10-30 | Reviews                 | 4 Correct, 0 Failed | Cleared all daily reviews and advanced them to 3-day intervals.                         |
 | 2026-11-02 | Articles & Prepositions | 2 Correct, 1 Failed | Diagnostic Exam. Cleared "depend on" (advances to 7 days). Advanced "good at" to streak 1. Added "uncountable advice" to failure pile. |
+| 2026-11-03 | Speed Review & Failures | 10 Correct, 1 Retry | Cleared 3 items from Failure Pile ("good at", "run it by", "phase out"). All 5 scheduled reviews advanced to 7-day ladder. |
+| 2026-11-05 | Articles & Prepositions | 3 Drills, 1 Cleared | Overcame word avoidance. Cleared "experience" & "remote work" to reviews.md. Reconfirmed "good at" and drilled "advice on". |
