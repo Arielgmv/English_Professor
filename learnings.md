@@ -13,7 +13,7 @@ The states: untouched → viewed → worked on → in review → mastered.
 | ------------------------------ | ------------------------------ | --------- | ---------- | -------------------------------------------------------- |
 | Advanced Phrasal Verbs         | `phrasal-verbs-c1.md`          | In review | 2026-11-03 | Cleared "run it by" & "phase out" into reviews. "Iron out" & separable/inseparable advanced to 7-day interval. |
 | Articles & Prepositions        | `articles-and-prepositions-c1` | In review | 2026-11-05 | "Experience" & "remote work" graduated to reviews. Reconfirmed "good at" and drilled "advice on". |
-| Spontaneous Speaking Framework | `describe-image-framework.md`  | Seen      | 2026-11-03 | SPIC conclusion pattern drill completed (streak 1). Ready for full image drill. |
+| Spontaneous Speaking Framework | `describe-image-framework.md`  | In review | 2026-11-06 | Full SPIC 4-step drill completed. Conclusion pattern cleared to reviews.md (streak 2). |
 
 ## Prepared Pieces
 Explanations and exercise sets that The Professor has prepared on screen. They are saved and can be reopened.
