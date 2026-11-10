@@ -8,6 +8,7 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 
 | Unit | Source | Next Review | Interval | Streak | Topic / Question |
 | --- | --- | --- | --- | --- | --- |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-12 | 3 days | 1 | Uncountable noun: "advice" / "advice on" |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-13 | 7 days | 3 | Collocation: "good at" + gerund/noun |
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-13 | 7 days | 3 | Phrasal Verb: "phase out" |
 | Spontaneous Speaking | `describe-image-framework.md` | 2026-11-09 | 3 days | 1 | SPIC Method: C1 abstract conclusion framing |
@@ -39,3 +40,4 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | 2026-11-03 | Speed Review & Failures | 10 Correct, 1 Retry | Cleared 3 items from Failure Pile ("good at", "run it by", "phase out"). All 5 scheduled reviews advanced to 7-day ladder. |
 | 2026-11-05 | Articles & Prepositions | 3 Drills, 1 Cleared | Overcame word avoidance. Cleared "experience" & "remote work" to reviews.md. Reconfirmed "good at" and drilled "advice on". |
 | 2026-11-06 | SPIC Drill & Daily Reviews | 5 Correct, 2 Failed | Cleared SPIC conclusion to reviews.md; advanced "good at" and "phase out" to 7-day rung. Relapsed on "work" uncountable and "run it by" subject inversion (back to fails.md). Completed full SPIC 4-step drill on server room scenario. |
+| 2026-11-09 | Emergency Drill (15m) | 3 Correct, 0 Failed | 100% pass on Failure Pile. Graduated "advice" to reviews.md (streak 2). Advanced "remote work" and "run it by" to streak 1. |
