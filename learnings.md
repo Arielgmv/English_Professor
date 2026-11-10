@@ -27,7 +27,8 @@ Explanations and exercise sets that The Professor has prepared on screen. They a
 
 ## Recurring Patterns
 When the same type of error appears three times, it is noted here. This is the most valuable part of the file.
-- **Spanish Interference Trap:** Translating prepositions word-for-word from Spanish (e.g., "depends of", "good in") instead of learning the English collocation as a single block.
+- **Spanish Interference Trap (Prepositions):** Translating prepositions word-for-word from Spanish (e.g., "depends of", "good in", "at the morning", "in the night") instead of learning the English collocation as a single block.
+- **Job vs. Work Interference Trap (Uncountable Confusion):** Treating *work* as countable (*"a remote work"*) or *job* as uncountable (*"a lot of job"*, *"continue with my job"*). Rule: *Job* = countable specific role/position; *Work* = uncountable activity/tasks ([Murphy Unit 70A](file:///home/ariel/Documents/Obsidian_Notes/Notes/English_Professor/murphy-index-v2.md#L37)).
 
 ---
 ## 🪨 Sentence Mining (#sentence-mining)
@@ -38,7 +39,10 @@ When the same type of error appears three times, it is noted here. This is the m
 |---|---|---|---|---|
 | 2026-11-03 | `good at handling` | "I am highly skilled in Python, meaning I am **good at handling** complex deployments." | "I am good handle..." | 🔄 In Review |
 | 2026-11-03 | `depend on` | "The success of this deployment **depends on** the API keys being ready today." | "depends of" | 🔄 In Review |
-| | | | | |
+| 2026-11-10 | `seamlessly integrate with` | "Our API layer is designed to **seamlessly integrate with** enterprise PostgreSQL databases." | "integrate seamless to" | 🔄 In Review |
+| 2026-11-10 | `as though [they] had` | "The team is refactoring the monolith **as though they had** an infinite maintenance window." | "as if they have" | 🔄 In Review |
+| 2026-11-10 | `miss out on` | "If we skip the incident post-mortem, we will **miss out on** critical architectural learnings." | "miss out their routine" | 🔄 In Review |
+| 2026-11-10 | `have a lot of work` | "I can't take on extra tickets today because I **have a lot of work** queued for the deployment." | "have a lot of job" | 🔄 In Review |
 
 ---
 
@@ -53,6 +57,12 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-10 | Question Syntax (Inversion) | "how can work the reminders?" | "how can the reminders work?" | Spanish inversion trap (*¿cómo pueden funcionar...?*). English questions require Auxiliary + Subject + Main Verb (Murphy Unit 49). Drilled & passed 2026-11-09. | 2026-11-12 |
 | 2026-11-10 | Verb Collocation / Preposition | "talk the other details" | "discuss the other details" / "talk about..." | *Talk* is intransitive (requires *about*); C1 *discuss* takes no preposition (Murphy Unit 133A). Drilled & passed 2026-11-09. | 2026-11-12 |
 | 2026-11-10 | Suggestion Framing | "How do you think if we..." | "What do you think about meeting... / How about we meet..." | Calque of *¿Cómo ves si...?*. In English, use *What do you think about [X]* or *How about [X]*. Drilled & passed 2026-11-09. | 2026-11-12 |
+| 2026-11-10 | Phrasal Verb / Preposition | "miss out their routine" | "miss out on their routine" / "miss their routine" | *Miss out* requires *on* before an object noun. Contrast with transitive *miss* (no *out*). Drilled & passed 2026-11-10. | 2026-11-13 |
+| 2026-11-10 | Conjunction vs Preposition | "because their work law" | "because of their workload / work schedule" | *Because* + clause (subject + verb); *because of* + noun phrase. Also *workload* (carga de trabajo) vs *work law*. | 2026-11-11 |
+| 2026-11-10 | Noun Countability (Job vs Work) | "a lot of job" | "a lot of work" | *Job* is countable (*a job / two jobs*); *work* is uncountable (*a lot of work*). Never "a lot of job" (Murphy Unit 70A). Drilled & passed 2026-11-10. | 2026-11-13 |
+| 2026-11-10 | Preposition of Time | "At the morning" | "In the morning" | *In the morning / afternoon / evening* BUT *at night*. Inversion trap with Spanish *en la mañana* (Murphy Unit 121A). Drilled & passed 2026-11-10. | 2026-11-13 |
+| 2026-11-10 | Time Expression (Clock) | "nine and a half hour" | "nine-thirty / half past nine" | Calque of Spanish *las nueve y media*. In English, state hour + minutes or *half past [hour]*. | 2026-11-11 |
+| 2026-11-10 | Noun Countability (Physique) | "build muscles" | "build muscle" | Body tissue/mass is uncountable (*build muscle*). Plural *muscles* refers to distinct individual organs. | 2026-11-11 |
 
 ---
 
