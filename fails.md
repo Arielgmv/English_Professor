@@ -6,7 +6,13 @@ Getting it right with a hint also counts as a failure.
 
 ## In the Pile
 
-*(Empty — all items cleared to reviews.md)*
+**Date:** 2026-11-11 | **Unit:** Articles & Prepositions
+- **Prompt:** Expressing job duties using "responsible for" + gerund.
+- **Your Answer:** "I was responsible for the triaging incoming customer alerts and coordinating..." (2026-11-11)
+- **Correct Answer:** "I was responsible for triaging incoming customer alerts and coordinating..."
+- **Why:** Rogue definite article before a gerund. In Spanish, actions often take articles (*el triaje*). In English, a gerund governing a direct object takes ZERO article: preposition + verb-ing (*for triaging*, never *for the triaging*).
+- **Next Review:** 2026-11-12
+- **Streak:** 0
 
 ## Overcome
 Failures that have left the pile. They are not deleted: they are proof that this works.
@@ -19,3 +25,4 @@ Failures that have left the pile. They are not deleted: they are proof that this
 - **2026-11-09:** Uncountable noun "advice" without indefinite article (Articles & Prepositions)
 - **2026-11-10:** Uncountable noun "work" vs countable "job" (Articles & Prepositions)
 - **2026-11-10:** Phrasal Verb "run [something] by [someone]" subject/object pronoun alignment (Advanced Phrasal Verbs)
+- **2026-11-11:** Collocation "depend on" + Embedded question word order without auxiliary inversion (Articles & Prepositions)

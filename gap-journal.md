@@ -19,3 +19,17 @@
 - **[[2026-11-10]]** | `#basic-gap` | **Error:** "I am with my job" → **Correct:** "I am at work / I am working" | **Context:** Elsa Speak (Direct calque of *estoy con mi trabajo*).
 - **[[2026-11-10]]** | `#basic-gap` | **Error:** "a lot of job" → **Correct:** "a lot of work" | **Context:** Elsa Speak (Job [countable] vs Work [uncountable] recurring trap; Murphy Unit 70A).
 - **[[2026-11-10]]** | `#basic-gap` | **Error:** "one quick exercises / another quick exercises" → **Correct:** "one quick exercise / another quick exercise" | **Context:** Elsa Speak (Singular quantifier agreement with count nouns).
+- **[[2026-11-11]]** | `#basic-gap` | **Error:** "It depends of in what are you feel" / "it depends of what time do you have" → **Correct:** "It depends on what you feel" / "It depends on what time you have" | **Context:** Elsa Speak (Relapse: *depend on* + Embedded question word order without auxiliary inversion; Murphy Unit 50 & 135D).
+- **[[2026-11-11]]** | `#basic-gap` | **Error:** "tennis, golf are a specific sport" → **Correct:** "tennis and golf are specific sports" | **Context:** Elsa Speak (Plural subject-predicate agreement).
+- **[[2026-11-11]]** | `#basic-gap` | **Error:** "only some minutes" → **Correct:** "only a few minutes" | **Context:** Elsa Speak (Quantifiers with count nouns; Murphy Unit 87).
+- **[[2026-11-11]]** | `#sentence-mining` | **Chunk:** "depends on what [subject] [verb]" | **Context:** Elsa Speak Role Play (Embedded question structure).
+- **[[2026-11-11]]** | `#sentence-mining` | **Chunk:** "only a few minutes" | **Context:** Elsa Speak Role Play (Quantifier collocation).
+- **[[2026-11-11]]** | `#basic-gap` | **Error:** "using the AI" → **Correct:** "using AI" | **Context:** Elsa Speak (Zero article with tech/abstract concepts; Murphy Unit 75A).
+- **[[2026-11-11]]** | `#basic-gap` | **Error:** "to do an innovative design" → **Correct:** "to create / develop an innovative design" | **Context:** Elsa Speak (Collocation trap: *hacer un diseño* $\rightarrow$ *create/develop a design*).
+- **[[2026-11-11]]** | `#basic-gap` | **Error:** "using a critical thinking of it" → **Correct:** "applying critical thinking to it" | **Context:** Elsa Speak (Uncountable abstract noun + preposition collocation *apply... to*; Murphy Unit 70A).
+- **[[2026-11-11]]** | `#basic-gap` | **Error:** "the last issue that we encounter" → **Correct:** "the latest issue we encountered" | **Context:** Elsa Speak (*last* [terminal] vs *latest* [most recent] + past simple tense).
+- **[[2026-11-11]]** | `#sentence-mining` | **Chunk:** "apply critical thinking to" | **Context:** Elsa Speak Sentence Creation.
+- **[[2026-11-11]]** | `#sentence-mining` | **Chunk:** "take a systematic approach to [verb-ing]" | **Context:** Elsa Speak Sentence Creation.
+- **[[2026-11-11]]** | `#basic-gap` | **Error:** "I will have launch my agency AI" → **Correct:** "I would have launched my AI agency" | **Context:** Elsa Speak (Third/Mixed conditional modal *would have* + past participle *launched* + noun order *AI agency*; Murphy Unit 40).
+- **[[2026-11-11]]** | `#basic-gap` | **Error:** "It will focus on..." → **Correct:** "It would focus on..." | **Context:** Elsa Speak (Hypothetical second conditional modal *would* vs real future *will*; Murphy Unit 38).
+- **[[2026-11-11]]** | `#sentence-mining` | **Chunk:** "Had I [verb-ed] earlier, I would have [verb-ed] by now" | **Context:** Elsa Speak (Advanced conditional inversion).

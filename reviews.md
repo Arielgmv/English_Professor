@@ -11,15 +11,14 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-12 | 3 days | 1 | Uncountable noun: "advice" / "advice on" |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-13 | 3 days | 1 | Zero article: "work" (uncountable) vs "job" |
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-13 | 3 days | 1 | Phrasal Verb: "run [something] by [someone]" |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-14 | 3 days | 1 | Collocation: "depend on" + embedded clause |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-13 | 7 days | 3 | Collocation: "good at" + gerund/noun |
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-13 | 7 days | 3 | Phrasal Verb: "phase out" |
-| Spontaneous Speaking | `describe-image-framework.md` | 2026-11-09 | 3 days | 1 | SPIC Method: C1 abstract conclusion framing |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-09 | 7 days | 3 | Collocation: "depend on" |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-10 | 7 days | 3 | Collocation: "responsible for" |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-10 | 7 days | 3 | Funnel Method (Time): "next Wednesday at 3:00 p.m." |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-10 | 7 days | 3 | Container Method (Place): "in Cochabamba, from home" |
-| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-10 | 7 days | 3 | Phrasal Verb: "iron out" (minor bugs) |
-| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-10 | 7 days | 3 | Grammar: Inseparable phrasal verb position ("look into it") |
+| Spontaneous Speaking | `describe-image-framework.md` | 2026-11-18 | 7 days | 2 | SPIC Method: C1 abstract conclusion framing |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-26 | 15 days | 4 | Funnel Method (Time): "next Wednesday at 3:00 p.m." |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-26 | 15 days | 4 | Container Method (Place): "in Cochabamba, from home" |
+| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-26 | 15 days | 4 | Phrasal Verb: "iron out" (minor bugs) |
+| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-26 | 15 days | 4 | Grammar: Inseparable phrasal verb position ("look into it") |
 
 ## Next Steps
 - Tomorrow (2026-11-06):
@@ -44,3 +43,4 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | 2026-11-06 | SPIC Drill & Daily Reviews | 5 Correct, 2 Failed | Cleared SPIC conclusion to reviews.md; advanced "good at" and "phase out" to 7-day rung. Relapsed on "work" uncountable and "run it by" subject inversion (back to fails.md). Completed full SPIC 4-step drill on server room scenario. |
 | 2026-11-09 | Emergency Drill (15m) | 3 Correct, 0 Failed | 100% pass on Failure Pile. Graduated "advice" to reviews.md (streak 2). Advanced "remote work" and "run it by" to streak 1. |
 | 2026-11-10 | Gap Forensics & Clearance | 3 Correct, 0 Failed | Analyzed 6 Elsa screenshots; added 4 chunks to sentence mining and updated basic gaps. Graduated "work" (uncountable) and "run it by" (streak 2). FAILURE PILE IS NOW 100% EMPTY. |
+| 2026-11-11 | Growth Session (60m) | 5 Correct, 1 Failed | Cleared "depend on" to reviews.md (streak 2). Advanced Time Funnel, Place Container, "iron out", and "look into it" to 15-day ladder. Advanced SPIC conclusion to 7-day ladder. Relapsed on rogue article before gerund ("responsible for the triaging" -> back to fails.md). Completed Mode B VP incident escalation simulation. |

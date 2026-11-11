@@ -43,6 +43,12 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-10 | `as though [they] had` | "The team is refactoring the monolith **as though they had** an infinite maintenance window." | "as if they have" | 🔄 In Review |
 | 2026-11-10 | `miss out on` | "If we skip the incident post-mortem, we will **miss out on** critical architectural learnings." | "miss out their routine" | 🔄 In Review |
 | 2026-11-10 | `have a lot of work` | "I can't take on extra tickets today because I **have a lot of work** queued for the deployment." | "have a lot of job" | 🔄 In Review |
+| 2026-11-11 | `depend on what [S] [V]` | "The migration timeline will **depend on what bottlenecks the audit reveals**." | "depends of in what are you feel" | 🔄 In Review (Drilled 2026-11-11) |
+| 2026-11-11 | `only a few minutes` | "Even if you have **only a few minutes** before the client sync, review the release notes." | "only some minutes" | ✅ Passed Drill (2026-11-11) |
+| 2026-11-11 | `apply critical thinking to` | "Engineers must **apply critical thinking to** evaluate architectural trade-offs." | "using a critical thinking of it" | ✅ Passed Drill (2026-11-11) |
+| 2026-11-11 | `take a systematic approach to` | "We need to **take a systematic approach to resolving** latency spikes in staging." | "using a systematic approach, two, resolve it" | 🔄 In Review |
+| 2026-11-11 | `Had I [V-ed], I would have [V-ed]` | "**Had I pivoted to** AI engineering earlier, **I would have launched** my consultancy by now." | "Had I pivoted... I will have launch" | ✅ Passed Drill (2026-11-11) |
+| 2026-11-11 | `would focus on` | "If we founded an automation studio, it **would focus on** streamlining enterprise workflows." | "It will focus on..." | 🔄 In Review |
 
 ---
 
@@ -63,6 +69,14 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-10 | Preposition of Time | "At the morning" | "In the morning" | *In the morning / afternoon / evening* BUT *at night*. Inversion trap with Spanish *en la mañana* (Murphy Unit 121A). Drilled & passed 2026-11-10. | 2026-11-13 |
 | 2026-11-10 | Time Expression (Clock) | "nine and a half hour" | "nine-thirty / half past nine" | Calque of Spanish *las nueve y media*. In English, state hour + minutes or *half past [hour]*. | 2026-11-11 |
 | 2026-11-10 | Noun Countability (Physique) | "build muscles" | "build muscle" | Body tissue/mass is uncountable (*build muscle*). Plural *muscles* refers to distinct individual organs. | 2026-11-11 |
+| 2026-11-11 | Embedded Question Syntax | "what time do you have available" | "what time you have available" | Indirect/embedded clauses do NOT use auxiliary inversion (*do/does/did*). Syntax is strictly Subject + Verb (Murphy Unit 50). Drilled & passed 2026-11-11. | 2026-11-12 |
+| 2026-11-11 | Collocation (Relapse) | "It depends of..." | "It depends on..." | Calque of Spanish *depender de*. Sent back to fails.md. Strictly *depend on* (Murphy Unit 135D). Drilled & passed (streak 1) 2026-11-11. | 2026-11-12 |
+| 2026-11-11 | Generic Article with Tech | "using the AI" | "using AI" | Abstract fields and general technology take ZERO article (Murphy Unit 75A). Spanish *la IA* trap. Drilled & passed 2026-11-11. | 2026-11-14 |
+| 2026-11-11 | Abstract Countability & Collocation | "using a critical thinking of it" | "applying critical thinking to it" | *Critical thinking* is strictly uncountable. Verb collocation is *apply... to* (Murphy Unit 70A). Drilled & passed 2026-11-11. | 2026-11-14 |
+| 2026-11-11 | Lexical Adjective Precision | "the last issue we encounter" | "the latest issue we encountered" | *Last* = final ever; *latest* = most recent. Also requires past tense for past incidents. | 2026-11-12 |
+| 2026-11-11 | Third Conditional Modal & Participle | "I will have launch" | "I would have launched" | Third/mixed conditional requires *would have + past participle* (never *will have + base*). Murphy Unit 40. Drilled & passed 2026-11-11. | 2026-11-14 |
+| 2026-11-11 | Noun Adjunct Word Order | "my agency AI" | "my AI agency" | In English, noun modifiers precede the head noun (*AI agency*, not *agency AI*). Spanish *agencia de IA* trap. | 2026-11-14 |
+| 2026-11-11 | Second Conditional Modal | "It will focus on..." | "It would focus on..." | Unreal / hypothetical condition requires modal *would*, not factual future *will* (Murphy Unit 38). | 2026-11-14 |
 
 ---
 
