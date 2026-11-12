@@ -33,3 +33,24 @@
 - **[[2026-11-11]]** | `#basic-gap` | **Error:** "I will have launch my agency AI" → **Correct:** "I would have launched my AI agency" | **Context:** Elsa Speak (Third/Mixed conditional modal *would have* + past participle *launched* + noun order *AI agency*; Murphy Unit 40).
 - **[[2026-11-11]]** | `#basic-gap` | **Error:** "It will focus on..." → **Correct:** "It would focus on..." | **Context:** Elsa Speak (Hypothetical second conditional modal *would* vs real future *will*; Murphy Unit 38).
 - **[[2026-11-11]]** | `#sentence-mining` | **Chunk:** "Had I [verb-ed] earlier, I would have [verb-ed] by now" | **Context:** Elsa Speak (Advanced conditional inversion).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "provide you a capacitation" → **Correct:** "provide you with training" | **Context:** Elsa Speak Role Play (False cognate *capacitación* + *provide someone with something*; Murphy Unit 136).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "let me know what type of questions do you have" → **Correct:** "let me know what type of questions you have" | **Context:** Elsa Speak Role Play (Embedded question syntax relapse: auxiliary *do* inversion in indirect clause; Murphy Unit 50).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "it is include in the contract" → **Correct:** "it is included in the contract" | **Context:** Elsa Speak Role Play (Passive voice past participle suffix *-ed* dropped; Murphy Unit 42).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "we can do software tools" → **Correct:** "we can develop / build software tools" | **Context:** Elsa Speak ("Hacer" collocation trap).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "I like also the casual styles / the dark colors" → **Correct:** "I also like casual styles / dark colors" | **Context:** Elsa Speak (Adverb mid-position Murphy Unit 110 + Generic plural zero article Murphy Unit 75A).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "impacting in our job" → **Correct:** "impacting our work / jobs" | **Context:** Elsa Speak (Transitive verb *impact* without preposition *in*).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "What about if we go..." → **Correct:** "What about going... / What if we go..." | **Context:** Elsa Speak (Hybrid suggestion collision).
+- **[[2026-11-12]]** | `#sentence-mining` | **Chunk:** "provide [someone] with training" | **Context:** Elsa Speak Role Play (Customer onboarding collocation).
+- **[[2026-11-12]]** | `#sentence-mining` | **Chunk:** "is included in the contract" | **Context:** Elsa Speak Role Play (Passive commercial term).
+- **[[2026-11-12]]** | `#sentence-mining` | **Chunk:** "significantly impact our workflow" | **Context:** Elsa Speak Open Conversation (C1 tech upgrade).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "I love eat chicken" → **Correct:** "I love eating chicken" | **Context:** Elsa Speak (Verb pattern: *love* + gerund / -ing form; Murphy Unit 53).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "clothes like this" → **Correct:** "clothes like these" | **Context:** Elsa Speak (Plural demonstrative agreement with plural-only noun *clothes*; Murphy Unit 74).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "shop some clothes" → **Correct:** "shop for clothes" | **Context:** Elsa Speak (Intransitive verb collocation: *shop for [goods]*).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "new types or forms to do our job" → **Correct:** "new ways / forms of doing our work" | **Context:** Elsa Speak (Noun + preposition + gerund *ways of doing* + uncountable *work*; Murphy Unit 70A).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "the Python" → **Correct:** "Python" | **Context:** Elsa Speak (Generic zero article with programming languages and tools; Murphy Unit 75A).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "It depends of what type of data we are missing" → **Correct:** "It depends on what type of data we are missing" | **Context:** Elsa Speak (CRITICAL RELAPSE: *depend on* + indirect clause; Murphy Unit 135D).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "if it is a data" → **Correct:** "if it is data" | **Context:** Elsa Speak (Uncountable mass noun: *data* takes zero indefinite article; Murphy Unit 69/70).
+- **[[2026-11-12]]** | `#basic-gap` | **Error:** "the bank produce" → **Correct:** "the bank produces" | **Context:** Elsa Speak (Third-person singular subject-verb agreement).
+- **[[2026-11-12]]** | `#sentence-mining` | **Chunk:** "Not only are [X] crucial, but they also enhance [Y]" | **Context:** Elsa Speak Open Conversation (Inverted adverbial construction).
+- **[[2026-11-12]]** | `#sentence-mining` | **Chunk:** "new ways of doing our work" | **Context:** Elsa Speak Open Conversation (Gerund collocation).
+- **[[2026-11-12]]** | `#sentence-mining` | **Chunk:** "populate / fill in missing data" | **Context:** Elsa Speak Open Conversation (Technical C1 data engineering chunk).

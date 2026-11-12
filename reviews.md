@@ -8,10 +8,9 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 
 | Unit | Source | Next Review | Interval | Streak | Topic / Question |
 | --- | --- | --- | --- | --- | --- |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-12 | 3 days | 1 | Uncountable noun: "advice" / "advice on" |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-19 | 7 days | 2 | Uncountable noun: "advice" / "advice on" |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-13 | 3 days | 1 | Zero article: "work" (uncountable) vs "job" |
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-13 | 3 days | 1 | Phrasal Verb: "run [something] by [someone]" |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-14 | 3 days | 1 | Collocation: "depend on" + embedded clause |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-13 | 7 days | 3 | Collocation: "good at" + gerund/noun |
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-13 | 7 days | 3 | Phrasal Verb: "phase out" |
 | Spontaneous Speaking | `describe-image-framework.md` | 2026-11-18 | 7 days | 2 | SPIC Method: C1 abstract conclusion framing |
@@ -21,11 +20,17 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-26 | 15 days | 4 | Grammar: Inseparable phrasal verb position ("look into it") |
 
 ## Next Steps
-- Tomorrow (2026-11-06):
-  - Clear the last remaining item in the Failure Pile: SPIC framework conclusion (streak 1 -> streak 2).
-  - First repetition check for `advice` (streak 0).
-  - 1-day check for `experience` / `remote work`.
-- Continue Spontaneous Speaking Framework (SPIC) drills.
+- Tomorrow (2026-11-13):
+  - **Failure Pile Drills:**
+    1. Clear `responsible for` + gerund (Streak 1 -> Streak 2 to graduate).
+    2. Reset drill for `depend on` + embedded clause (Streak 0 -> Streak 1).
+  - **Scheduled Reviews (2026-11-13):**
+    3. `work` (uncountable) vs `job` (3-day check).
+    4. `run [something] by [someone]` (3-day check).
+    5. `good at` + gerund/noun (7-day check).
+    6. `phase out` (7-day check).
+  - **Consolidated Screenshot Gap Drills:**
+    - Execute the full drill battery from 2026-11-12 Elsa Speak sessions (Batch 1 & Batch 2).
 
 ## Sessions
 
@@ -44,3 +49,4 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | 2026-11-09 | Emergency Drill (15m) | 3 Correct, 0 Failed | 100% pass on Failure Pile. Graduated "advice" to reviews.md (streak 2). Advanced "remote work" and "run it by" to streak 1. |
 | 2026-11-10 | Gap Forensics & Clearance | 3 Correct, 0 Failed | Analyzed 6 Elsa screenshots; added 4 chunks to sentence mining and updated basic gaps. Graduated "work" (uncountable) and "run it by" (streak 2). FAILURE PILE IS NOW 100% EMPTY. |
 | 2026-11-11 | Growth Session (60m) | 5 Correct, 1 Failed | Cleared "depend on" to reviews.md (streak 2). Advanced Time Funnel, Place Container, "iron out", and "look into it" to 15-day ladder. Advanced SPIC conclusion to 7-day ladder. Relapsed on rogue article before gerund ("responsible for the triaging" -> back to fails.md). Completed Mode B VP incident escalation simulation. |
+| 2026-11-12 | Deep Dive (2h+) | 5 Drills Passed, Mode D & E Complete | Advanced "responsible for" to streak 1 in fails.md. Advanced "advice" to 7-day ladder. Drilled embedded syntax, "latest", "seamlessly integrate with", "take a systematic approach to" + gerund, and hypothetical "would focus on". Executed full STAR interview audit & refactor (saved to #star-stories). Passed 100% Mode E Prosody Active Recall. |
