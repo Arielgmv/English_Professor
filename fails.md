@@ -6,21 +6,21 @@ Getting it right with a hint also counts as a failure.
 
 ## In the Pile
 
-**Date:** 2026-11-11 | **Unit:** Articles & Prepositions
-- **Prompt:** Expressing job duties using "responsible for" + gerund.
-- **Your Answer:** "I was responsible for the triaging incoming customer alerts and coordinating..." (2026-11-11); "I was responsible for configuring custom webhook endpoints and resolving data payload discrepancies." (2026-11-12).
-- **Correct Answer:** "I was responsible for configuring custom webhook endpoints and resolving..."
-- **Why:** Rogue definite article before a gerund. In Spanish, actions often take articles (*el triaje*). In English, a gerund governing a direct object takes ZERO article: preposition + verb-ing (*for configuring*, never *for the configuring*). Handled with 100% precision on 2026-11-12.
-- **Next Review:** 2026-11-13
-- **Streak:** 1 (Needs 1 more on a different day to clear)
-
 **Date:** 2026-11-12 | **Unit:** Articles & Prepositions
 - **Prompt:** Expressing conditional dependency using "depend on" + embedded clause.
-- **Your Answer:** "It depends of what type of data we are missing..." (2026-11-12 spontaneous Elsa conversation).
-- **Correct Answer:** "It depends on what type of data we are missing..."
-- **Why:** Direct Spanish calque relapse (*depender de*). In English, *depend* strictly collocates with **on**, never *of* (Murphy Unit 135D). Reset from `reviews.md` back to Failure Pile per spaced repetition protocol.
-- **Next Review:** 2026-11-13
-- **Streak:** 0 (Needs 2 consecutive passes on different days to graduate back to reviews.md)
+- **Your Answer:** "It depends of what type of data we are missing..." (2026-11-12); "It depends on the results showing afternoon benchmarks latency." (2026-11-13 initial attempt, avoided embedded clause); retry passed: "It depends on what results the latency benchmarks show this afternoon."
+- **Correct Answer:** "It depends on what results the latency benchmarks show this afternoon."
+- **Why:** Relapse on preposition (*depend of* on 2026-11-12) followed by clause avoidance on 2026-11-13. The structure requires `depend on` + `what [noun]` + `[Subject] + [Verb]` without auxiliary inversion. Per rule, passing on a hint/retry keeps streak at 0.
+- **Next Review:** 2026-11-14
+- **Streak:** 0 (Needs 2 consecutive unassisted passes on different days to graduate)
+
+**Date:** 2026-11-13 | **Unit:** Advanced Phrasal Verbs & Prepositions of Time
+- **Prompt:** Expressing gradual deprecation using "phase out" + duration preposition ("over [time]").
+- **Your Answer:** "We are planning phase out the legacy servers along the next two quarters." (dropped infinitive *to*, used spatial *along* for time); retry passed: "We are planning to phase out the legacy servers over the next two quarters."
+- **Correct Answer:** "We are planning to phase out the legacy servers over the next two quarters."
+- **Why:** 1) `plan` requires `to-infinitive` (*planning to phase out*). 2) Time duration: Spanish *a lo largo de* translates to *over / throughout*, never spatial *along*. Returned from `reviews.md` to Failure Pile per strict spaced repetition rules.
+- **Next Review:** 2026-11-14
+- **Streak:** 0 (Needs 2 consecutive unassisted passes on different days to graduate)
 
 ## Overcome
 Failures that have left the pile. They are not deleted: they are proof that this works.
@@ -34,3 +34,4 @@ Failures that have left the pile. They are not deleted: they are proof that this
 - **2026-11-10:** Uncountable noun "work" vs countable "job" (Articles & Prepositions)
 - **2026-11-10:** Phrasal Verb "run [something] by [someone]" subject/object pronoun alignment (Advanced Phrasal Verbs)
 - **2026-11-11:** Collocation "depend on" + Embedded question word order without auxiliary inversion (Articles & Prepositions)
+- **2026-11-13:** Expressing job duties using "responsible for" + gerund parallel structure (Articles & Prepositions)

@@ -8,11 +8,11 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 
 | Unit | Source | Next Review | Interval | Streak | Topic / Question |
 | --- | --- | --- | --- | --- | --- |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-14 | 1 day | 1 | Preposition + Gerund: "responsible for [verb-ing]" (zero article) |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-19 | 7 days | 2 | Uncountable noun: "advice" / "advice on" |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-13 | 3 days | 1 | Zero article: "work" (uncountable) vs "job" |
-| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-13 | 3 days | 1 | Phrasal Verb: "run [something] by [someone]" |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-13 | 7 days | 3 | Collocation: "good at" + gerund/noun |
-| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-13 | 7 days | 3 | Phrasal Verb: "phase out" |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-20 | 7 days | 2 | Zero article: "work" (uncountable) vs "job" |
+| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-20 | 7 days | 2 | Phrasal Verb: "run [something] by [someone]" |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-28 | 15 days | 4 | Collocation: "good at" + gerund/noun |
 | Spontaneous Speaking | `describe-image-framework.md` | 2026-11-18 | 7 days | 2 | SPIC Method: C1 abstract conclusion framing |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-26 | 15 days | 4 | Funnel Method (Time): "next Wednesday at 3:00 p.m." |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-26 | 15 days | 4 | Container Method (Place): "in Cochabamba, from home" |
@@ -20,17 +20,18 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-26 | 15 days | 4 | Grammar: Inseparable phrasal verb position ("look into it") |
 
 ## Next Steps
-- Tomorrow (2026-11-13):
-  - **Failure Pile Drills:**
-    1. Clear `responsible for` + gerund (Streak 1 -> Streak 2 to graduate).
-    2. Reset drill for `depend on` + embedded clause (Streak 0 -> Streak 1).
-  - **Scheduled Reviews (2026-11-13):**
-    3. `work` (uncountable) vs `job` (3-day check).
-    4. `run [something] by [someone]` (3-day check).
-    5. `good at` + gerund/noun (7-day check).
-    6. `phase out` (7-day check).
-  - **Consolidated Screenshot Gap Drills:**
-    - Execute the full drill battery from 2026-11-12 Elsa Speak sessions (Batch 1 & Batch 2).
+- Next Session (2026-11-14):
+  - **Failure Pile Drills (Streak 0 checks):**
+    1. `depend on` + embedded clause (Streak 0 -> Streak 1).
+    2. `phase out` + duration `over` (Streak 0 -> Streak 1).
+  - **1-Day Review Check:**
+    3. `responsible for` + gerund (Streak 1 review).
+  - **Resume Block 3 Consolidated Screenshot Gap Battery:**
+    4. Challenge 8: Commercial scope & passive participle (`is included in the contract`).
+    5. Challenge 9: Embedded questions (`let me know what questions you have`).
+    6. Challenge 10: Transitive verb `impact` without `in` (`significantly impact our workflow`).
+    7. Challenge 11: Technical mass noun `data` without `a` & zero article with `Python`.
+    8. Challenge 12: Gerund collocation `ways of doing our work` & everyday precision (`shop for clothes`, `clothes like these`).
 
 ## Sessions
 
@@ -50,3 +51,4 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | 2026-11-10 | Gap Forensics & Clearance | 3 Correct, 0 Failed | Analyzed 6 Elsa screenshots; added 4 chunks to sentence mining and updated basic gaps. Graduated "work" (uncountable) and "run it by" (streak 2). FAILURE PILE IS NOW 100% EMPTY. |
 | 2026-11-11 | Growth Session (60m) | 5 Correct, 1 Failed | Cleared "depend on" to reviews.md (streak 2). Advanced Time Funnel, Place Container, "iron out", and "look into it" to 15-day ladder. Advanced SPIC conclusion to 7-day ladder. Relapsed on rogue article before gerund ("responsible for the triaging" -> back to fails.md). Completed Mode B VP incident escalation simulation. |
 | 2026-11-12 | Deep Dive (2h+) | 5 Drills Passed, Mode D & E Complete | Advanced "responsible for" to streak 1 in fails.md. Advanced "advice" to 7-day ladder. Drilled embedded syntax, "latest", "seamlessly integrate with", "take a systematic approach to" + gerund, and hypothetical "would focus on". Executed full STAR interview audit & refactor (saved to #star-stories). Passed 100% Mode E Prosody Active Recall. |
+| 2026-11-13 | Spaced Reviews & Gap Kickoff | 4 Passed (1st try), 3 Retries | Graduated "responsible for" + gerund to reviews.md (Streak 2). Advanced "good at" to 15-day ladder (Streak 4). Advanced "work" (uncountable) and "run it by" to 7-day ladder (Streak 2). Tested "depend on" (reconstructed clause, streak 0). Reset "phase out" to fails.md due to dropped "to" and "along" time calque (passed on retry, streak 0). Drilled "provide sb with training" (passed on retry). |
