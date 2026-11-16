@@ -8,7 +8,7 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 
 | Unit | Source | Next Review | Interval | Streak | Topic / Question |
 | --- | --- | --- | --- | --- | --- |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-14 | 1 day | 1 | Preposition + Gerund: "responsible for [verb-ing]" (zero article) |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-16 | 1 day | 1 | Preposition + Gerund: "responsible for [verb-ing]" (zero article) |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-19 | 7 days | 2 | Uncountable noun: "advice" / "advice on" |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-20 | 7 days | 2 | Zero article: "work" (uncountable) vs "job" |
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-20 | 7 days | 2 | Phrasal Verb: "run [something] by [someone]" |
@@ -20,7 +20,8 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-26 | 15 days | 4 | Grammar: Inseparable phrasal verb position ("look into it") |
 
 ## Next Steps
-- Next Session (2026-11-14):
+- Next Session (Monday, 2026-11-16):
+  *Operating Schedule: Monday to Friday. Intervals landing on weekends automatically roll over to Monday.*
   - **Failure Pile Drills (Streak 0 checks):**
     1. `depend on` + embedded clause (Streak 0 -> Streak 1).
     2. `phase out` + duration `over` (Streak 0 -> Streak 1).
@@ -32,6 +33,15 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
     6. Challenge 10: Transitive verb `impact` without `in` (`significantly impact our workflow`).
     7. Challenge 11: Technical mass noun `data` without `a` & zero article with `Python`.
     8. Challenge 12: Gerund collocation `ways of doing our work` & everyday precision (`shop for clothes`, `clothes like these`).
+  - **Block 4: New Elsa Screenshot Gap Battery (11 Screenshots):**
+    9. Challenge 13: Dependent Preposition with `mention` (`mention sth TO someone`).
+    10. Challenge 14: Habitual Present Simple vs Continuous (`I use AI... because it helps...`).
+    11. Challenge 15: Narrative Past Tense Consistency in incident storytelling (`tested in staging and it worked`).
+    12. Challenge 16: Collocation with `issues` (`issues with reporting`, not `issues in`).
+    13. Challenge 17: Source Preposition (`data from yesterday / the previous day`, not `of yesterday`).
+    14. Challenge 18: Collaboration & Teamwork Collocations (`members of our team`, `reach a consensus`, `collaborative effort`).
+    15. Challenge 19: Noun Complementation Pattern (`have trouble / difficulty describing`, not `issues to describe`).
+    16. Challenge 20: Royal Order of Adjectives OSASCOMP (`an original large blue book`).
 
 ## Sessions
 

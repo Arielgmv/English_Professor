@@ -54,3 +54,19 @@
 - **[[2026-11-12]]** | `#sentence-mining` | **Chunk:** "Not only are [X] crucial, but they also enhance [Y]" | **Context:** Elsa Speak Open Conversation (Inverted adverbial construction).
 - **[[2026-11-12]]** | `#sentence-mining` | **Chunk:** "new ways of doing our work" | **Context:** Elsa Speak Open Conversation (Gerund collocation).
 - **[[2026-11-12]]** | `#sentence-mining` | **Chunk:** "populate / fill in missing data" | **Context:** Elsa Speak Open Conversation (Technical C1 data engineering chunk).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "the project I mentioned you" → **Correct:** "the project I mentioned to you" | **Context:** Elsa Speak Role Play (Dependent preposition: *mention sth TO someone*; Murphy Unit 133A).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "I am using AI almost all the time because it helped me" → **Correct:** "I use AI almost all the time because it helps me" | **Context:** Elsa Speak Role Play (Habitual present simple vs continuous + tense consistency; Murphy Unit 3).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "the using the AI helped me" → **Correct:** "using AI helped me" | **Context:** Elsa Speak Role Play (Zero article before gerund subject + zero article with general AI; Murphy Unit 75A).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "It is was not a lot of changes" → **Correct:** "There were not many changes / It wasn't a major set of changes" | **Context:** Elsa Speak Role Play (Existential *there were* vs double verb collision).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "Once I have the solution, I test it... and works well" → **Correct:** "Once I had the solution, I tested it... and it worked well" | **Context:** Elsa Speak Role Play (Narrative past tense consistency + subject pronoun *it*; Murphy Unit 5).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "reports of previous days / data of yesterday" → **Correct:** "reports from previous days / data from yesterday" | **Context:** Elsa Speak Role Play (Source preposition *from* vs Spanish *de*).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "I faced issues in reporting projects" → **Correct:** "I faced issues with reporting" | **Context:** Elsa Speak Role Play (Preposition collocation: *issues with [noun]*).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "members of our teamwork" → **Correct:** "members of our team" | **Context:** Elsa Speak Sentence Creation (*team* [the group] vs *teamwork* [the dynamic]).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "reach a good consensus" → **Correct:** "reach a consensus" | **Context:** Elsa Speak Sentence Creation (Collocation: `reach a consensus` without redundant *good*).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "in our job" → **Correct:** "at work" | **Context:** Elsa Speak Sentence Creation (Work [uncountable activity] vs Job [countable role]; Murphy Unit 70A).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "I have some issues to describe" → **Correct:** "I have trouble / difficulty describing" | **Context:** Elsa Speak Grammar (Pattern: `have trouble/difficulty + verb-ing`; Murphy Unit 65C).
+- **[[2026-11-15]]** | `#basic-gap` | **Error:** "a large blue and original book" → **Correct:** "an original large blue book" | **Context:** Elsa Speak Grammar (Royal Order of Adjectives: Opinion → Size → Color; Murphy Unit 99).
+- **[[2026-11-15]]** | `#sentence-mining` | **Chunk:** "mention [something] to [someone]" | **Context:** Elsa Speak Role Play.
+- **[[2026-11-15]]** | `#sentence-mining` | **Chunk:** "contribute to a collaborative effort" | **Context:** Elsa Speak Sentence Creation.
+- **[[2026-11-15]]** | `#sentence-mining` | **Chunk:** "reach a consensus" | **Context:** Elsa Speak Sentence Creation.
+- **[[2026-11-15]]** | `#sentence-mining` | **Chunk:** "have trouble [verb-ing]" | **Context:** Elsa Speak Grammar.

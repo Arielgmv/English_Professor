@@ -56,6 +56,10 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-12 | `ways of doing our work` | "Continuous integration introduces **efficient ways of doing our work** without downtime." | "forms to do our job" | 🔄 In Review |
 | 2026-11-12 | `populate / fill in missing data` | "We built an automated pipeline to **populate missing data** before triggering the model." | "too. Feel the data" | 🔄 In Review |
 | 2026-11-12 | `shop for [items]` | "On weekends, I usually **shop for clothes** or hardware components online." | "shop some clothes" | 🔄 In Review |
+| 2026-11-15 | `mention [sth] to [sb]` | "In the architectural proposal **I mentioned to you** yesterday, we outlined the migration." | "the project I mentioned you" | 🔄 In Review |
+| 2026-11-15 | `contribute to a collaborative effort` | "Every engineer on the platform team **contributed to a collaborative effort** to resolve the outage." | "help in a collaborative effort" | 🔄 In Review |
+| 2026-11-15 | `reach a consensus` | "After debating the schema trade-offs, we finally **reached a consensus** on the partitioning key." | "we reach a good consensus" | 🔄 In Review |
+| 2026-11-15 | `have trouble [verb-ing]` | "Many junior engineers **have trouble navigating** legacy codebase documentation." | "have some issues to describe" | 🔄 In Review |
 
 ---
 
@@ -96,6 +100,16 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-12 | Third Person Agreement | "the bank produce" | "the bank produces" | Singular institutional subject (*the bank*) requires third-person *-s* suffix. | 2026-11-15 |
 | 2026-11-12 | Generic Article with Languages | "the Python" | "Python" | Programming languages, frameworks, and operating systems take ZERO article (Murphy Unit 75A). | 2026-11-15 |
 | 2026-11-12 | Noun + Prep + Gerund & Uncountable | "forms to do our job" | "ways of doing our work" | Noun complement pattern: *ways/methods of doing*. *Work* is uncountable activity; *job* is countable role. | 2026-11-15 |
+| 2026-11-15 | Dependent Preposition | "I mentioned you" | "I mentioned to you" | *Mention* takes direct object + *to [person]* (*mention sth TO sb*). Never omit *to* (Murphy Unit 133A). | 2026-11-16 |
+| 2026-11-15 | Aspect & Tense Consistency | "I am using AI... because it helped" | "I use AI... because it helps" | Habitual routines use Present Simple (*use*); subordinate clause maintains present tense (*helps*). Murphy Unit 3. | 2026-11-16 |
+| 2026-11-15 | Rogue Article & Gerund Subject | "the using the AI" | "using AI" | Gerunds as subjects take ZERO article (*using*); general AI takes ZERO article (Murphy Unit 75A). | 2026-11-16 |
+| 2026-11-15 | Narrative Past Consistency | "Once I have... I test it and works" | "Once I had... I tested it and it worked" | Narrating completed past events requires Past Simple throughout + explicit subject pronoun *it* (Murphy Unit 5). | 2026-11-16 |
+| 2026-11-15 | Source Preposition | "data of yesterday / of previous days" | "data from yesterday / from previous days" | Source/origin takes *from* (*data from yesterday*), not possessive *of* (calque of Spanish *datos de ayer*). | 2026-11-16 |
+| 2026-11-15 | Noun Preposition Collocation | "issues in reporting" | "issues with reporting" | Collocation: `have / face issues WITH [noun/system]`, not *in*. | 2026-11-16 |
+| 2026-11-15 | Team vs Teamwork | "members of our teamwork" | "members of our team" | *Team* is the concrete collective group of colleagues; *teamwork* is the abstract collaborative action/dynamic. | 2026-11-16 |
+| 2026-11-15 | Collocation Cleanliness | "we reach a good consensus" | "we reached a consensus" | Standard professional collocation is `reach a consensus` (avoid adding redundant *good*); past tense *reached*. | 2026-11-16 |
+| 2026-11-15 | Noun Pattern (Trouble / Difficulty) | "issues to describe" | "trouble / difficulty describing" | Pattern: `have trouble / difficulty + verb-ing` (Murphy Unit 65C). Never infinitive *to describe*. | 2026-11-16 |
+| 2026-11-15 | Royal Order of Adjectives | "large blue and original book" | "an original large blue book" | Cumulative adjectives follow OSASCOMP: Opinion (*original*) → Size (*large*) → Color (*blue*). Murphy Unit 99. | 2026-11-16 |
 
 ---
 

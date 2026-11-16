@@ -11,7 +11,7 @@ Getting it right with a hint also counts as a failure.
 - **Your Answer:** "It depends of what type of data we are missing..." (2026-11-12); "It depends on the results showing afternoon benchmarks latency." (2026-11-13 initial attempt, avoided embedded clause); retry passed: "It depends on what results the latency benchmarks show this afternoon."
 - **Correct Answer:** "It depends on what results the latency benchmarks show this afternoon."
 - **Why:** Relapse on preposition (*depend of* on 2026-11-12) followed by clause avoidance on 2026-11-13. The structure requires `depend on` + `what [noun]` + `[Subject] + [Verb]` without auxiliary inversion. Per rule, passing on a hint/retry keeps streak at 0.
-- **Next Review:** 2026-11-14
+- **Next Review:** 2026-11-16 (Monday)
 - **Streak:** 0 (Needs 2 consecutive unassisted passes on different days to graduate)
 
 **Date:** 2026-11-13 | **Unit:** Advanced Phrasal Verbs & Prepositions of Time
@@ -19,7 +19,7 @@ Getting it right with a hint also counts as a failure.
 - **Your Answer:** "We are planning phase out the legacy servers along the next two quarters." (dropped infinitive *to*, used spatial *along* for time); retry passed: "We are planning to phase out the legacy servers over the next two quarters."
 - **Correct Answer:** "We are planning to phase out the legacy servers over the next two quarters."
 - **Why:** 1) `plan` requires `to-infinitive` (*planning to phase out*). 2) Time duration: Spanish *a lo largo de* translates to *over / throughout*, never spatial *along*. Returned from `reviews.md` to Failure Pile per strict spaced repetition rules.
-- **Next Review:** 2026-11-14
+- **Next Review:** 2026-11-16 (Monday)
 - **Streak:** 0 (Needs 2 consecutive unassisted passes on different days to graduate)
 
 ## Overcome
