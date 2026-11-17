@@ -50,16 +50,20 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-11 | `Had I [V-ed], I would have [V-ed]` | "**Had I pivoted to** AI engineering earlier, **I would have launched** my consultancy by now." | "Had I pivoted... I will have launch" | ✅ Passed Drill (2026-11-11) |
 | 2026-11-11 | `would focus on` | "If we founded an automation studio, it **would focus on** streamlining enterprise workflows." | "It will focus on..." | ✅ Passed Drill (2026-11-12) |
 | 2026-11-12 | `provide [sb] with training` | "During onboarding, our team will **provide your operations engineers with comprehensive hands-on training**." | "we will provide you a capacitation" | ✅ Passed Drill on Retry (2026-11-13) |
-| 2026-11-12 | `is included in the contract` | "Tier-2 maintenance and regular updates **are fully included in the service contract**." | "it is include in the contract" | 🔄 In Review |
-| 2026-11-12 | `significantly impact our workflow` | "Automated testing will **significantly impact our deployment workflow** by cutting regression hours." | "the AI is impacting a lot in our job" | 🔄 In Review |
+| 2026-11-12 | `is included in the contract` | "Tier-2 maintenance and regular updates **are fully included in the service contract**." | "it is include in the contract" | ✅ Passed Drill on Retry (2026-11-16) |
+| 2026-11-12 | `significantly impact our workflow` | "Automated testing will **significantly impact our deployment workflow** by cutting regression hours." | "the AI is impacting a lot in our job" | ✅ Passed Drill (2026-11-16) |
 | 2026-11-12 | `Not only are [X] crucial, but they also [Y]` | "**Not only are programming skills crucial**, but **they also enhance** problem-solving capabilities." | "It's important... because we use a lot of..." | 🔄 In Review |
-| 2026-11-12 | `ways of doing our work` | "Continuous integration introduces **efficient ways of doing our work** without downtime." | "forms to do our job" | 🔄 In Review |
-| 2026-11-12 | `populate / fill in missing data` | "We built an automated pipeline to **populate missing data** before triggering the model." | "too. Feel the data" | 🔄 In Review |
+| 2026-11-12 | `ways of doing our work` | "Continuous integration introduces **efficient ways of doing our work** without downtime." | "forms to do our job" | ✅ Passed Drill (2026-11-16) |
+| 2026-11-12 | `populate / fill in missing data` | "We built an automated pipeline to **populate missing data** before triggering the model." | "too. Feel the data" | ✅ Passed Drill (2026-11-16) |
 | 2026-11-12 | `shop for [items]` | "On weekends, I usually **shop for clothes** or hardware components online." | "shop some clothes" | 🔄 In Review |
-| 2026-11-15 | `mention [sth] to [sb]` | "In the architectural proposal **I mentioned to you** yesterday, we outlined the migration." | "the project I mentioned you" | 🔄 In Review |
-| 2026-11-15 | `contribute to a collaborative effort` | "Every engineer on the platform team **contributed to a collaborative effort** to resolve the outage." | "help in a collaborative effort" | 🔄 In Review |
-| 2026-11-15 | `reach a consensus` | "After debating the schema trade-offs, we finally **reached a consensus** on the partitioning key." | "we reach a good consensus" | 🔄 In Review |
+| 2026-11-15 | `mention [sth] to [sb]` | "In the architectural proposal **I mentioned to you** yesterday, we outlined the migration." | "the project I mentioned you" | ✅ Passed Drill (2026-11-16) |
+| 2026-11-15 | `contribute to a collaborative effort` | "Every engineer on the platform team **contributed to a collaborative effort** to resolve the outage." | "help in a collaborative effort" | ✅ Passed Drill (2026-11-16) |
+| 2026-11-15 | `reach a consensus` | "After debating the schema trade-offs, we finally **reached a consensus** on the partitioning key." | "we reach a good consensus" | ✅ Passed Drill (2026-11-16) |
 | 2026-11-15 | `have trouble [verb-ing]` | "Many junior engineers **have trouble navigating** legacy codebase documentation." | "have some issues to describe" | 🔄 In Review |
+| 2026-11-17 | `not to lose sight of our goals` | "During high-pressure sprints, we must stay aligned **not to lose sight of our goals**." | "We have be supportive. To reach our goals" | 🔄 In Review |
+| 2026-11-17 | `with the help of [my team]` | "We successfully patched the ingestion pipeline **with the help of my team**." | "by the help of my team" | 🔄 In Review |
+| 2026-11-17 | `responded very well` | "When I escalated the blocking issue, our platform engineers **responded very well**." | "The team respond very good" | 🔄 In Review |
+| 2026-11-17 | `having [X] is vital for [Y]` | "In cross-functional projects, **having psychological safety is vital for effective collaboration**." | "I think is vital, have a positive atmosphere" | 🔄 In Review |
 
 ---
 
@@ -110,6 +114,18 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-15 | Collocation Cleanliness | "we reach a good consensus" | "we reached a consensus" | Standard professional collocation is `reach a consensus` (avoid adding redundant *good*); past tense *reached*. | 2026-11-16 |
 | 2026-11-15 | Noun Pattern (Trouble / Difficulty) | "issues to describe" | "trouble / difficulty describing" | Pattern: `have trouble / difficulty + verb-ing` (Murphy Unit 65C). Never infinitive *to describe*. | 2026-11-16 |
 | 2026-11-15 | Royal Order of Adjectives | "large blue and original book" | "an original large blue book" | Cumulative adjectives follow OSASCOMP: Opinion (*original*) → Size (*large*) → Color (*blue*). Murphy Unit 99. | 2026-11-16 |
+| 2026-11-17 | Semi-Modal / Infinitive | "We have be supportive" | "We have to be supportive" | Semi-modal *have to* requires infinitive marker *to* before base verb (*have to be*). | 2026-11-18 |
+| 2026-11-17 | Abstract Noun Countability | "in an effective teamwork" | "for effective teamwork" | *Teamwork* is strictly uncountable mass noun; takes zero article and preposition *for*. | 2026-11-18 |
+| 2026-11-17 | Prepositional Idiom | "by the help of my team" | "with the help of my team" | Fixed English idiom is strictly `with the help of [someone]`, never *by*. | 2026-11-18 |
+| 2026-11-17 | Verb Pattern (Ask) | "asking to the client" | "asking the client" | Pattern: `ask [person] to [do sth]`. Zero preposition *to* before the direct recipient person. | 2026-11-18 |
+| 2026-11-17 | Adverb Position | "send again this data" | "send this data again" | Adverbs like *again* belong in end-position after the direct object noun phrase. | 2026-11-18 |
+| 2026-11-17 | Adverb vs Adjective | "respond very good" | "responded very well" | Verbs of action take the adverb *well*, not the adjective *good* (Murphy Unit 101). Past simple *-ed*. | 2026-11-18 |
+| 2026-11-17 | Plural Pronoun Agreement | "challenges... fixed it" | "challenges... resolved them" | Plural count noun *challenges* requires third-person plural object pronoun *them*. | 2026-11-18 |
+| 2026-11-17 | Clause Subject (Dummy It / Gerund) | "I think is vital, have..." | "I think having [X] is vital / it is vital to have..." | English clauses require an explicit subject: gerund subject (*having*) or dummy *it* (*it is vital to have*). Avoids Spanish calque *creo que es vital tener*. | 2026-11-18 |
+| 2026-11-17 | Dependent Preposition | "The things that we talk" | "The things we talk about" | Intransitive verb *talk* requires preposition *about* when referring to topics (Murphy Unit 133A). | 2026-11-18 |
+| 2026-11-17 | Demonstrative Agreement | "this. A skills inside the team" | "these skills within the team" | Plural count noun *skills* requires plural demonstrative *these*; preposition of organization is *within*. | 2026-11-18 |
+| 2026-11-17 | Preposition + Gerund & Plural Count | "effective doing task" | "effective in doing tasks" | Adjective complementation: `effective in/at [verb-ing]`; countable noun *task* requires plural *tasks*. | 2026-11-18 |
+| 2026-11-17 | Relations vs Relationships | "good relations among members" | "good relationships among team members" | Interpersonal interpersonal connections between colleagues use *relationships*; *relations* is diplomatic/labor. | 2026-11-18 |
 
 ---
 

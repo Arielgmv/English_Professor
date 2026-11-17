@@ -1,0 +1,27 @@
+During security audit, I was responsible for audit the IAM permissions and rotate the API compromised credentials. 
+During the security audit, I was responsible for auditing the IAM permisssion and rotating the compromised API credentials.
+
+Both 24/7 support and automatic security copies are totally including in the services contract.
+Both 24/7 support and backups are fully included in the service contract.
+
+Please let me know what questions you have about the database arquitecture
+
+This automated tool will significantly impact our deployment workflow by reducing regresion hours.
+
+If it is data that we can fix internally, we use Python scripts to populate missing data before running the risk model.
+
+The continuous integration introduced more efficient ways of doing our work without causing downtime.
+
+In the arquitectural proposal I mentioned to you last week, I added a detailed rollback strategy.
+
+In fact, I use AI tools almost all the time because they help me to draft test cases and accelerate my workflow.
+
+Once I had the hotfix, I tested it in our staging environment and it worked well.
+
+In our latest sprint, we faced serious issues with data ingestion due to a bottleneck in the database.
+
+The conciliation process failed because we could not extract data from yesterday from the client's SFTP server.
+
+To resolve the disagreement about the squema, members of our team meet and reach a consensus through a collaborative effort.
+
+

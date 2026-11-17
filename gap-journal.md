@@ -70,3 +70,19 @@
 - **[[2026-11-15]]** | `#sentence-mining` | **Chunk:** "contribute to a collaborative effort" | **Context:** Elsa Speak Sentence Creation.
 - **[[2026-11-15]]** | `#sentence-mining` | **Chunk:** "reach a consensus" | **Context:** Elsa Speak Sentence Creation.
 - **[[2026-11-15]]** | `#sentence-mining` | **Chunk:** "have trouble [verb-ing]" | **Context:** Elsa Speak Grammar.
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "We have be supportive" → **Correct:** "We have to be supportive" | **Context:** Elsa Speak Fill In The Gaps (Semi-modal *have to*; missing *to*).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "the open communication... in an effective teamwork" → **Correct:** "open communication... for effective teamwork" | **Context:** Elsa Speak Fill In The Gaps (Zero article with abstract nouns; uncountable *teamwork*; Murphy Unit 75A).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "by the help of my team" → **Correct:** "with the help of my team" | **Context:** Elsa Speak Role Play (Fixed prepositional idiom: *with the help of*).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "asking to the client" → **Correct:** "asking the client" | **Context:** Elsa Speak Role Play (Verb pattern: *ask sb to do sth*; zero *to* before direct person object).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "send again this data" → **Correct:** "send this data again" | **Context:** Elsa Speak Role Play (Adverb end-position).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "The team respond very good" → **Correct:** "The team responded very well" | **Context:** Elsa Speak Role Play (Past tense inflection *-ed* + adverb *well* vs adjective *good*; Murphy Unit 101).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "challenges... fixed it / do it" → **Correct:** "challenges... resolved them / overcame them" | **Context:** Elsa Speak Role Play (Plural pronoun agreement with count noun *challenges*).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "I think is vital, have a positive atmosphere" → **Correct:** "I think having a positive atmosphere is vital... / I think it is vital to have..." | **Context:** Elsa Speak Open Conversation (Gerund subject or dummy *it* subject; avoiding Spanish V-S calque).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "The things that we talk" → **Correct:** "The things we talk about" | **Context:** Elsa Speak Open Conversation (Dependent preposition: *talk about sth*; Murphy Unit 133A).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "A skills inside the team" → **Correct:** "These skills within the team" | **Context:** Elsa Speak Open Conversation (Plural demonstrative *these* + preposition *within*).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "Be transparent and effective doing task" → **Correct:** "Being transparent and effective in doing tasks" | **Context:** Elsa Speak Open Conversation (Gerund subject + count plural *tasks*).
+- **[[2026-11-17]]** | `#basic-gap` | **Error:** "good relations among members" → **Correct:** "good relationships among team members" | **Context:** Elsa Speak Open Conversation (Interpersonal *relationships* vs geopolitical *relations*).
+- **[[2026-11-17]]** | `#sentence-mining` | **Chunk:** "not to lose sight of our goals" | **Context:** Elsa Speak Fill In The Gaps (C1 negative infinitive idiom).
+- **[[2026-11-17]]** | `#sentence-mining` | **Chunk:** "with the help of [my team]" | **Context:** Elsa Speak Role Play (Attribution chunk).
+- **[[2026-11-17]]** | `#sentence-mining` | **Chunk:** "responded very well" | **Context:** Elsa Speak Role Play (Adverb collocation).
+- **[[2026-11-17]]** | `#sentence-mining` | **Chunk:** "having [X] is vital for [Y]" | **Context:** Elsa Speak Open Conversation (C1 clause structure).
