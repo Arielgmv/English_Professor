@@ -36,3 +36,39 @@ Ultimately, this incident highlights the critical need to automate configuration
 Many new developers have trouble navigating the legacy codebase documentation.
 
 I think open communication is fundamental for effective teamwork and helps prevent misunderstandings.
+
+I was resposible for auditing security access permisssions, and rotating compromised API credentials.
+
+It depends on the bottlenecks that our QA team uncovers during load testing.
+
+Our legacy on-premise authentication server will phase out over the next three quarters.
+Our legacy on-premise authentication server will be phased out over the next three quarters.
+
+You can find the disaster-recovery protocol in the original, large, blue handbook on the shelf.
+You can find the disaster-recovery protocol in an original large blue handbook on the shelf.
+
+I think it is vital having a positive atmosphere for effective collaboration.
+Having a positive atmosphere is vital for effective collaboration.
+
+We have to be supportive, not to lose sight of our goals.
+
+I resolved the critical API outage before the morning SLA deadline with the help of my team.
+
+I fixed the issue asking the client to send this data again.
+I fixed the issue by asking the client to send the data again.
+
+During yesterday's emergency escalation network spike, the platform team responded very well, they fixed the issue very quickly.
+
+I mantain these skills within the team, building good relationships among team members and having clear technical documentation.
+I mantain these skills within the team, building good relationships among team members and building and having clear technical documentation.
+
+Yes, my team agrees with the proposed six-week migration schedule.
+
+I think it is better if we add at least two more weeks, if we find any issues, we will need time to fix them. 
+
+It is essential to perform extensive testing to validate this agent before deploy it into production customer workflows.
+
+I'm already doing this. We are currently developing an agent that handles this workflow.
+
+AI will help our team with data analysis, searching for documentation, and writing the code.
+AI will help our team with data analysis, searching for documentation, and writing code.

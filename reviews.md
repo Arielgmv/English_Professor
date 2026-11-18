@@ -8,7 +8,7 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 
 | Unit | Source | Next Review | Interval | Streak | Topic / Question |
 | --- | --- | --- | --- | --- | --- |
-| Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-18 | 1 day | 1 | Phrasal Verb: "phase out" + duration "over" |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-19 | 1 day | 2 | Expressing duties: "responsible for" + parallel gerunds |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-19 | 7 days | 2 | Uncountable noun: "advice" / "advice on" |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-20 | 7 days | 2 | Zero article: "work" (uncountable) vs "job" |
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-20 | 7 days | 2 | Phrasal Verb: "run [something] by [someone]" |
@@ -20,33 +20,17 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-26 | 15 days | 4 | Grammar: Inseparable phrasal verb position ("look into it") |
 
 ## Next Steps
-- Next Session (Wednesday, 2026-11-18):
+- Next Session (Thursday, 2026-11-19):
   - **Block 1: Failure Pile Checks (Unassisted Attempts):**
-    1. `depend on` + embedded clause (Streak 0 -> Streak 1).
-    2. `responsible for` + gerund (Streak 0 -> Streak 1).
-  - **Block 2: 1-Day Spaced Review Check:**
-    3. `phase out` + duration `over` (Streak 1 review).
-  - **Block 3: Pending Challenge from Monday:**
-    4. Royal Order of Adjectives OSASCOMP (*an original large blue book*).
-  - **Block 4: The 15 Elsa Screenshot Challenges (Logged 2026-11-17 afternoon):**
-    5. Clause Structure: Gerund Subject / Dummy It (*having a positive atmosphere is vital for team collaboration*).
-    6. Semi-Modal & Negative Purpose (*we have to be supportive not to lose sight of our goals*).
-    7. Fixed Prepositional Idiom (*with the help of my team*, never *by*).
-    8. Verb Pattern & Adverb Position (*asking the client to send this data again*).
-    9. Adverb vs Adjective in Narrative (*responded very well*, not *respond very good*).
-    10. Organization Preposition & Demonstrative (*these skills within the team*).
-    11. Interpersonal Terminology (*good relationships among team members*, not *relations*).
-  - **Block 5: The 6 New Elsa Screenshot Challenges (Logged 2026-11-17 evening):**
-    12. Stative Verb vs Be-Adjective (*my team agrees with this timeline*, never *is agree*).
-    13. Buffer & Timeline Collocation (*build in a two-week buffer / add two more weeks*).
-    14. Quantifier & Pronoun Plural Agreement (*if we find any issues, we will need time to fix them*).
-    15. Technical Elevation: Avoiding Redundancy (*conduct thorough testing to validate this agent* instead of *do deep testing to test*).
-    16. In-Progress Project Aspect (*we are currently developing an agent*, not *we will create / we create*).
-    17. Parallel Prepositional Complementation & Dependent Preposition (*help with data analysis and searching for information*).
-    18. Predicate Complementation & Technical Compounds (*the main goals are to build... the backend and frontend*).
-  - **Block 6: Shadowing & Prosody Mode (Section 12):**
-    19. Executive engineering incident narrative with rhythm annotations (`/`, `//`, `CAPS`).
-    20. Read-aloud practice + Active Recall memory reconstruction.
+    1. `depend on` + embedded clause (Streak 1 -> GRADUATION ATTEMPT).
+    2. `phase out` + passive voice with system subject (Streak 0 -> Streak 1).
+  - **Block 2: Spaced Reviews:**
+    3. `responsible for` + parallel gerunds (1-Day Ladder Review).
+    4. Uncountable noun `advice` / `advice on` (7-Day Ladder Review).
+  - **Block 3: Mode B (Professional Simulation):**
+    5. Execute Jira Incident #INC-8492 response to Marcus Vance (incorporating dependency, thorough validation, and ongoing aspect).
+  - **Block 4: Mode E (Shadowing & Prosody):**
+    6. Executive engineering narrative prosody notation (`/`, `//`, `CAPS`) + Active Recall reconstruction.
 
 ## Sessions
 
@@ -69,3 +53,4 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | 2026-11-13 | Spaced Reviews & Gap Kickoff | 4 Passed (1st try), 3 Retries | Graduated "responsible for" + gerund to reviews.md (Streak 2). Advanced "good at" to 15-day ladder (Streak 4). Advanced "work" (uncountable) and "run it by" to 7-day ladder (Streak 2). Tested "depend on" (reconstructed clause, streak 0). Reset "phase out" to fails.md due to dropped "to" and "along" time calque (passed on retry, streak 0). Drilled "provide sb with training" (passed on retry). |
 | 2026-11-16 | Deep Dive (2h+) | 8 Drills Passed (1st try), 3 Retries | Advanced "phase out" to Streak 1 in fails.md. Reconstructed "depend on" clause (Streak 0). Failed 1-day check for "responsible for" (dropped gerund -ing; reset to fails.md at Streak 0, passed on retry). Cleared Block 3 gaps: "included in the contract" (passed on retry), "what questions you have" (1st try), "significantly impact our workflow" (1st try), "populate missing data" & zero article with "Python" (1st try), "ways of doing our work" (1st try). Cleared Block 4 gaps: "mention to you" (1st try), habitual Present Simple with "AI tools" (1st try), narrative past consistency (1st try), "issues with" (1st try), "data from yesterday" (1st try), "members of our team", "reach a consensus" & "collaborative effort" (1st try). |
 | 2026-11-17 | Standard Maintenance (30m) | 5 Passed (1st try), 1 Retry | Graduated "phase out" + duration "over" back to reviews.md (Streak 2). Reconstructed "depend on" embedded clause on retry (Streak 0). Advanced "responsible for" + gerund to Streak 1 unassisted. Advanced SPIC Method conclusion framing to 15-day ladder (Streak 3). Cleared "have trouble [verb-ing]" (1st try) and abstract mass countability "open communication for effective teamwork" (1st try). |
+| 2026-11-18 | Comprehensive Sprint (Deep Dive) | 12 Passed (1st try), 3 Retries | GRADUATED "responsible for" + parallel gerunds to reviews.md (Streak 2 unassisted). Advanced "depend on" + indirect clause to Streak 1 unassisted. Reinforced passive voice with "phase out" on retry (Streak 0). Cleared OSASCOMP cumulative adjective order without "and" on retry. Cleared Block 4 Elsa gaps: gerund subject without "it" on retry, negative purpose "not to lose sight of", attribution idiom "with the help of", "asking the client to send it again", "responded very well", and "relationships within the team". Cleared Block 5 Elsa gaps: stative "agrees with" (no "is agree"), buffer collocation & plural agreement ("add two more weeks / any issues to fix them"), technical elevation ("perform extensive testing to validate"), ongoing present continuous ("are currently developing an agent"), tripartite parallel gerunds after preposition "with", and goal complementation ("the main goals are to build... backend and frontend"). |
