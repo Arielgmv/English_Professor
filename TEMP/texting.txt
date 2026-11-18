@@ -24,4 +24,15 @@ The conciliation process failed because we could not extract data from yesterday
 
 To resolve the disagreement about the squema, members of our team meet and reach a consensus through a collaborative effort.
 
+We plan to phase out the legacy authentication service over the next two quarters.
 
+It depends on what file formats provides the customer during the initial onboarding phase.
+It depends on what file formats the customer provides during the initial onboarding phase.
+
+I was responsible for monitoring the cluster performance and scaling the infraestructure during the peak hours traffic.
+
+Ultimately, this incident highlights the critical need to automate configuration validation to prevent human error.
+
+Many new developers have trouble navigating the legacy codebase documentation.
+
+I think open communication is fundamental for effective teamwork and helps prevent misunderstandings.

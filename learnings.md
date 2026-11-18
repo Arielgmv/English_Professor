@@ -59,11 +59,15 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-15 | `mention [sth] to [sb]` | "In the architectural proposal **I mentioned to you** yesterday, we outlined the migration." | "the project I mentioned you" | ✅ Passed Drill (2026-11-16) |
 | 2026-11-15 | `contribute to a collaborative effort` | "Every engineer on the platform team **contributed to a collaborative effort** to resolve the outage." | "help in a collaborative effort" | ✅ Passed Drill (2026-11-16) |
 | 2026-11-15 | `reach a consensus` | "After debating the schema trade-offs, we finally **reached a consensus** on the partitioning key." | "we reach a good consensus" | ✅ Passed Drill (2026-11-16) |
-| 2026-11-15 | `have trouble [verb-ing]` | "Many junior engineers **have trouble navigating** legacy codebase documentation." | "have some issues to describe" | 🔄 In Review |
+| 2026-11-15 | `have trouble [verb-ing]` | "Many junior engineers **have trouble navigating** legacy codebase documentation." | "have some issues to describe" | ✅ Passed Drill (2026-11-17) |
 | 2026-11-17 | `not to lose sight of our goals` | "During high-pressure sprints, we must stay aligned **not to lose sight of our goals**." | "We have be supportive. To reach our goals" | 🔄 In Review |
 | 2026-11-17 | `with the help of [my team]` | "We successfully patched the ingestion pipeline **with the help of my team**." | "by the help of my team" | 🔄 In Review |
 | 2026-11-17 | `responded very well` | "When I escalated the blocking issue, our platform engineers **responded very well**." | "The team respond very good" | 🔄 In Review |
 | 2026-11-17 | `having [X] is vital for [Y]` | "In cross-functional projects, **having psychological safety is vital for effective collaboration**." | "I think is vital, have a positive atmosphere" | 🔄 In Review |
+| 2026-11-17 | `agree with [a timeline/plan]` | "All engineering leads **agree with the deployment timeline** we proposed." | "My team is agree with this timeline" | 🔄 In Review |
+| 2026-11-17 | `build in a buffer / add [time] more` | "To mitigate unexpected API regressions, we should **build in a two-week buffer**." | "we put more, at least two weeks more" | 🔄 In Review |
+| 2026-11-17 | `conduct thorough testing to validate [system]` | "Before deploying the model to production, we must **conduct thorough testing to validate the agent**." | "do deep testing to test this agent" | 🔄 In Review |
+| 2026-11-17 | `search for information` | "Our autonomous agents specialize in **searching for information** across enterprise documentation." | "And search information" | 🔄 In Review |
 
 ---
 
@@ -126,6 +130,11 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-17 | Demonstrative Agreement | "this. A skills inside the team" | "these skills within the team" | Plural count noun *skills* requires plural demonstrative *these*; preposition of organization is *within*. | 2026-11-18 |
 | 2026-11-17 | Preposition + Gerund & Plural Count | "effective doing task" | "effective in doing tasks" | Adjective complementation: `effective in/at [verb-ing]`; countable noun *task* requires plural *tasks*. | 2026-11-18 |
 | 2026-11-17 | Relations vs Relationships | "good relations among members" | "good relationships among team members" | Interpersonal interpersonal connections between colleagues use *relationships*; *relations* is diplomatic/labor. | 2026-11-18 |
+| 2026-11-17 | Stative Verb vs Be-Adjective Trap | "My team is agree with this timeline" | "My team agrees with this timeline" | Direct Spanish calque (*está de acuerdo*). In English, *agree* is a verb (*agrees*), never a be-adjective (*is agree*). Murphy Unit 2/4. | 2026-11-18 |
+| 2026-11-17 | Quantifier Order & Plural Pronoun | "two weeks more... find any issue to fix it" | "two more weeks... find any issues to fix them" | Quantifier order: *two more weeks*. Count noun after open conditional *any* takes plural *issues*, requiring plural object pronoun *them*. | 2026-11-18 |
+| 2026-11-17 | Present Continuous (In-Progress) | "We will create... We create... working on it now" | "We are creating / developing an agent..." | Describing an ongoing project in active execution requires Present Continuous (*are creating/developing*), not future *will* or simple present. Murphy Unit 1. | 2026-11-18 |
+| 2026-11-17 | Parallel Preposition Complementation | "help with data analysis. And search information" | "help with data analysis and searching for information" | The preposition *with* governs both objects: requires parallel gerund *searching*. *Search* takes dependent preposition *for* (*search for info*). Murphy Unit 60 & 133. | 2026-11-18 |
+| 2026-11-17 | Predicate Complementation (Goal) | "goals are this first build the software... back in front end" | "goals are to build the software system, including backend and frontend" | Subject complement after *goal is...* requires full infinitive *to build*. Technical compound noun is *backend and frontend*. | 2026-11-18 |
 
 ---
 
