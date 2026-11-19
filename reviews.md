@@ -8,8 +8,9 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 
 | Unit | Source | Next Review | Interval | Streak | Topic / Question |
 | --- | --- | --- | --- | --- | --- |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-19 | 1 day | 2 | Expressing duties: "responsible for" + parallel gerunds |
-| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-19 | 7 days | 2 | Uncountable noun: "advice" / "advice on" |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-20 | 1 day | 2 | Collocation: "depend on" + embedded wh- clause |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-22 | 3 days | 3 | Expressing duties: "responsible for" + parallel gerunds |
+| Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-20 | 1 day | 1 | Uncountable noun: "advice" / "advice on" (noun vs verb check) |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-20 | 7 days | 2 | Zero article: "work" (uncountable) vs "job" |
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-20 | 7 days | 2 | Phrasal Verb: "run [something] by [someone]" |
 | Articles & Prepositions | `articles-and-prepositions-c1` | 2026-11-28 | 15 days | 4 | Collocation: "good at" + gerund/noun |
@@ -20,17 +21,21 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | Advanced Phrasal Verbs | `phrasal-verbs-c1.md` | 2026-11-26 | 15 days | 4 | Grammar: Inseparable phrasal verb position ("look into it") |
 
 ## Next Steps
-- Next Session (Thursday, 2026-11-19):
-  - **Block 1: Failure Pile Checks (Unassisted Attempts):**
-    1. `depend on` + embedded clause (Streak 1 -> GRADUATION ATTEMPT).
-    2. `phase out` + passive voice with system subject (Streak 0 -> Streak 1).
-  - **Block 2: Spaced Reviews:**
-    3. `responsible for` + parallel gerunds (1-Day Ladder Review).
-    4. Uncountable noun `advice` / `advice on` (7-Day Ladder Review).
-  - **Block 3: Mode B (Professional Simulation):**
-    5. Execute Jira Incident #INC-8492 response to Marcus Vance (incorporating dependency, thorough validation, and ongoing aspect).
+- Next Session (Friday, 2026-11-20):
+  - **Block 1: Failure Pile Priority Clearance (Unassisted):**
+    1. `phase out` + passive voice with system subject (Streak 1 -> GRADUATION ATTEMPT).
+  - **Block 2: Spaced Repetition Ladder Reviews:**
+    2. `depend on` + embedded clause (1-Day Ladder Check, Streak 2).
+    3. Uncountable noun `advice` / `advice on` (Rapid 1-Day Check, noun vs verb).
+    4. Zero article: `work` (uncountable) vs `job` (7-Day Ladder Review).
+    5. Phrasal Verb: `run [something] by [someone]` (7-Day Ladder Review).
+  - **Block 3: Elsa Sentence Creation Challenges (Logged 2026-11-19):**
+    6. Plural Count & Preposition Cleanup (*new proposals regarding innovative solutions*).
+    7. Abstract Process Countability & Zero Article (*tech adoption is critical for our team*).
+    8. Correlative Conjunction & Noun Adjunct (*not only essential for the engineering team, but also for other teams*).
+    9. Work vs Job Precision (*workflows in our work / across our operations*).
   - **Block 4: Mode E (Shadowing & Prosody):**
-    6. Executive engineering narrative prosody notation (`/`, `//`, `CAPS`) + Active Recall reconstruction.
+    10. Executive engineering narrative prosody notation (`/`, `//`, `CAPS`) + Active Recall reconstruction.
 
 ## Sessions
 
@@ -54,3 +59,4 @@ What I already know, but need to revisit so I don't forget. Maintained by The Pr
 | 2026-11-16 | Deep Dive (2h+) | 8 Drills Passed (1st try), 3 Retries | Advanced "phase out" to Streak 1 in fails.md. Reconstructed "depend on" clause (Streak 0). Failed 1-day check for "responsible for" (dropped gerund -ing; reset to fails.md at Streak 0, passed on retry). Cleared Block 3 gaps: "included in the contract" (passed on retry), "what questions you have" (1st try), "significantly impact our workflow" (1st try), "populate missing data" & zero article with "Python" (1st try), "ways of doing our work" (1st try). Cleared Block 4 gaps: "mention to you" (1st try), habitual Present Simple with "AI tools" (1st try), narrative past consistency (1st try), "issues with" (1st try), "data from yesterday" (1st try), "members of our team", "reach a consensus" & "collaborative effort" (1st try). |
 | 2026-11-17 | Standard Maintenance (30m) | 5 Passed (1st try), 1 Retry | Graduated "phase out" + duration "over" back to reviews.md (Streak 2). Reconstructed "depend on" embedded clause on retry (Streak 0). Advanced "responsible for" + gerund to Streak 1 unassisted. Advanced SPIC Method conclusion framing to 15-day ladder (Streak 3). Cleared "have trouble [verb-ing]" (1st try) and abstract mass countability "open communication for effective teamwork" (1st try). |
 | 2026-11-18 | Comprehensive Sprint (Deep Dive) | 12 Passed (1st try), 3 Retries | GRADUATED "responsible for" + parallel gerunds to reviews.md (Streak 2 unassisted). Advanced "depend on" + indirect clause to Streak 1 unassisted. Reinforced passive voice with "phase out" on retry (Streak 0). Cleared OSASCOMP cumulative adjective order without "and" on retry. Cleared Block 4 Elsa gaps: gerund subject without "it" on retry, negative purpose "not to lose sight of", attribution idiom "with the help of", "asking the client to send it again", "responded very well", and "relationships within the team". Cleared Block 5 Elsa gaps: stative "agrees with" (no "is agree"), buffer collocation & plural agreement ("add two more weeks / any issues to fix them"), technical elevation ("perform extensive testing to validate"), ongoing present continuous ("are currently developing an agent"), tripartite parallel gerunds after preposition "with", and goal complementation ("the main goals are to build... backend and frontend"). |
+| 2026-11-19 | Growth Session (60m) | 4 Passed (1st try), 1 Retry | GRADUATED "depend on" + embedded wh- clause to reviews.md (Streak 2 unassisted). Advanced "phase out" + passive voice to Streak 1 in fails.md unassisted. Advanced "responsible for" + parallel gerunds to Streak 3 (3-day interval). Corrected noun vs verb "advice on" on retry. Executed Mode B Jira Incident #INC-8492 response to Marcus Vance with 100% target integration (ongoing aspect, wh- clause dependency, and validation chunk). |

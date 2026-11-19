@@ -72,3 +72,19 @@ I'm already doing this. We are currently developing an agent that handles this w
 
 AI will help our team with data analysis, searching for documentation, and writing the code.
 AI will help our team with data analysis, searching for documentation, and writing code.
+
+The main goals for this project are to build the core software system, develop the backend and frontend, and integrate AI capabilities.
+
+The timeline depends on what file formats you provide us during the initial integration phase.
+
+The legacy authentication server will be phased out over the next two quarters.
+
+I was responsible for architecting the automated failover pipelines, and monitoring system latency during peak traffic.
+
+To handling high-throughputh traffic I advice on configuring the load balancer or optimizing the database connections.
+
+I can offer sound advice on configuring the load balancer or optimizing the database connections.
+
+Yes, I'm actively handling this critical priority, our engineering team is currently developing a patch for this issue.  The recovery timeline depends on what schema discrepancies our diagnostics uncover. Our team will conduct thorough testing to validate the agent.
+
+

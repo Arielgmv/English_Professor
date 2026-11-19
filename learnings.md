@@ -68,6 +68,9 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-17 | `build in a buffer / add [time] more` | "To mitigate unexpected API regressions, we should **build in a two-week buffer**." | "we put more, at least two weeks more" | 🔄 In Review |
 | 2026-11-17 | `conduct thorough testing to validate [system]` | "Before deploying the model to production, we must **conduct thorough testing to validate the agent**." | "do deep testing to test this agent" | 🔄 In Review |
 | 2026-11-17 | `search for information` | "Our autonomous agents specialize in **searching for information** across enterprise documentation." | "And search information" | 🔄 In Review |
+| 2026-11-19 | `proposals regarding [innovative solutions]` | "The architecture squad presented several **new proposals regarding innovative solutions** for our cloud migration." | "a new proposals to regarding the innovative solutions" | 🔄 In Review |
+| 2026-11-19 | `tech adoption is critical for [X]` | "Accelerating **tech adoption is critical for our cross-functional teams** to leverage generative AI." | "the tech adoptions is it is very important" | 🔄 In Review |
+| 2026-11-19 | `not only essential for [X], but also for [Y]` | "Continuous deployment is **not only essential for the engineering team, but also for operational efficiency**." | "not only important for the engineer team, also the other teams" | 🔄 In Review |
 
 ---
 
@@ -135,6 +138,10 @@ When the same type of error appears three times, it is noted here. This is the m
 | 2026-11-17 | Present Continuous (In-Progress) | "We will create... We create... working on it now" | "We are creating / developing an agent..." | Describing an ongoing project in active execution requires Present Continuous (*are creating/developing*), not future *will* or simple present. Murphy Unit 1. | 2026-11-18 |
 | 2026-11-17 | Parallel Preposition Complementation | "help with data analysis. And search information" | "help with data analysis and searching for information" | The preposition *with* governs both objects: requires parallel gerund *searching*. *Search* takes dependent preposition *for* (*search for info*). Murphy Unit 60 & 133. | 2026-11-18 |
 | 2026-11-17 | Predicate Complementation (Goal) | "goals are this first build the software... back in front end" | "goals are to build the software system, including backend and frontend" | Subject complement after *goal is...* requires full infinitive *to build*. Technical compound noun is *backend and frontend*. | 2026-11-18 |
+| 2026-11-19 | Article & Plural Count / Preposition Collision | "a new proposals to regarding" | "new proposals regarding / a new proposal regarding" | Indefinite article *a* clashes with plural *proposals*; double preposition *to regarding* is ungrammatical. Use *proposals regarding [X]*. | 2026-11-20 |
+| 2026-11-19 | Abstract Process Noun Countability | "the tech adoptions is it is very important" | "tech adoption is critical / essential" | Abstract processes (*adoption*) are uncountable and take zero article. Eliminate double subject/verb collision (*is it is*). Murphy Unit 70. | 2026-11-20 |
+| 2026-11-19 | Correlative Conjunction & Noun Adjunct | "not only important for the engineer team, also the other teams" | "not only essential for the engineering team, but also for other teams" | Paired conjunction is strictly *not only... BUT ALSO...*. Noun adjunct modifying team is *engineering*, not *engineer*. Murphy Unit 110. | 2026-11-20 |
+| 2026-11-19 | Noun Countability (Work vs Job Relapse) | "workflows of our job" | "workflows in our work / operations" | *Work* = uncountable activity/enterprise; *job* = individual specific role. Tasks live in *our work/operations*, not *our job*. Murphy Unit 70A. | 2026-11-20 |
 
 ---
 
